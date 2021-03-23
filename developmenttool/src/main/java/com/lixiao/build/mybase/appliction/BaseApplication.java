@@ -12,7 +12,13 @@ public abstract class BaseApplication extends Application {
     protected abstract void needClear(String str);
     protected abstract void close();
 
+    private static BaseApplication application;
+
     private static Context context;
+
+    public static BaseApplication getApplication() {
+        return application;
+    }
 
     public static Context getContext() {
         return context;
@@ -34,6 +40,7 @@ public abstract class BaseApplication extends Application {
 //        LeakCanary.install(this);
         super.onCreate();
         // 程序创建的时候执行
+        application=this;
         context=getApplicationContext();
         MyApplicationFile.getInstance();
         init();

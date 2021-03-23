@@ -11,7 +11,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3de6b48c-5bc8-46fe-9360-2e12c684ec30" name="Default Changelist" comment="" />
+    <list default="true" id="3de6b48c-5bc8-46fe-9360-2e12c684ec30" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developmenttool/src/main/java/com/lixiao/build/mybase/appliction/BaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/src/main/java/com/lixiao/build/mybase/appliction/BaseApplication.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +63,12 @@
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\CBR\lixiaomodel\developmenttool\src\main\res\layout" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\CBR\lixiaomodel\app\src\main\java\com\newbee\lixiaomodel" />
+      <recent name="F:\CBR\lixiaomodel\developmenttool\src\main\java\com\lixiao\build\mybase\sqlite\event" />
+      <recent name="F:\CBR\lixiaomodel\developmenttool\src\main\java\com\lixiao\view" />
       <recent name="F:\CBR\lixiaomodel\developmenttool\src\main\res\drawable" />
+      <recent name="F:\CBR\lixiaomodel\developmenttool\src\main\res\layout" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.newbee.lixiaomodel" />
@@ -71,12 +77,9 @@
       <recent name="com.lixiao.down.manager" />
       <recent name="com.lixiao.down.config" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\CBR\lixiaomodel\app\src\main\java\com\newbee\lixiaomodel" />
-      <recent name="F:\CBR\lixiaomodel\developmenttool\src\main\java\com\lixiao\build\mybase\sqlite\event" />
-      <recent name="F:\CBR\lixiaomodel\developmenttool\src\main\java\com\lixiao\view" />
-      <recent name="F:\CBR\lixiaomodel\developmenttool\src\main\res\drawable" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\CBR\lixiaomodel\developmenttool\src\main\res\layout" />
+      <recent name="F:\CBR\lixiaomodel\developmenttool\src\main\res\drawable" />
     </key>
   </component>
   <component name="RunDashboard">
