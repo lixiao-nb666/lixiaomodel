@@ -1,0 +1,26 @@
+<resources>
+
+
+
+
+
+
+
+
+
+
+
+    <style name="NewBee.BaseImmersiveTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="NewBee.BaseImmersiveThemeTransparentNavigation" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+</resources>

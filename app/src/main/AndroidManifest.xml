@@ -1,0 +1,94 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.newbee.lixiaomodel">
+    <uses-feature android:name="android.hardware.usb.host"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.hardware.usb.host" />
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+    <!--b-->
+    <uses-permission android:name="android.permission.ACCESS_SUPERlandscape" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--c-->
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!--d-->
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+    <!--g-->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!--r-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CONNECTIVITY_INTERNAL" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!--i-->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 静默安装 -->
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <!--m-->
+    <uses-permission android:name="android.permission.READ_FRAME_BUFFER" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--w-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <!--s-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 在 屏幕最顶部显示addview-->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--v-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.SERIAL_PORT" />
+    <uses-permission android:name="android.permission.RECOVERY" />
+    <!-- Required -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.hardware.sensor.accelerometer"/>
+
+    <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:name=".MyApplication"
+        android:theme="@style/NewBee.BaseImmersiveThemeTransparentNavigation" >
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+
+        <activity
+            android:name=".DemoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LauncherActivity"/>
+        <activity android:name=".UserPrivateAgreemeetActivity"/>
+        <activity android:name=".TestDownActivity"/>
+        <activity android:name=".TestUploadActivity"/>
+        <service android:name="com.lixiao.down.service.XiaoGeDownLoaderService"/>
+        <service android:name="com.lixiao.oss.service.OssService"/>
+    </application>
+</manifest>

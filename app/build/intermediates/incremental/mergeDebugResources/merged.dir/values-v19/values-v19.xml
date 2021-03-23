@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NewBee.BaseImmersiveTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="NewBee.BaseImmersiveThemeTransparentNavigation" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

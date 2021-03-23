@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.liulishuo.okdownload:sqlite:1.0.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29652c932b005087228f49ca027b0368/jetified-sqlite-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29652c932b005087228f49ca027b0368/jetified-sqlite-1.0.6/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liulishuo.okdownload/sqlite/1.0.6/a54c1eeff18ae37039ba9af0249842724c978181/sqlite-1.0.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liulishuo.okdownload/sqlite/1.0.6/3ff59e8c089d763db12ca1d8c45d6b962be351c5/sqlite-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
