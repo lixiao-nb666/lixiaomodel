@@ -164,7 +164,7 @@
 73-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:30:22-65
 74
 75    <application
-75-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:66:5-93:19
+75-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:66:5-94:19
 76        android:name="com.newbee.lixiaomodel.MyApplication"
 76-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:73:9-38
 77        android:allowBackup="true"
@@ -218,32 +218,35 @@
 101        <activity android:name="com.newbee.lixiaomodel.TestUploadActivity" />
 101-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:90:9-55
 101-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:90:19-53
-102
-103        <service android:name="com.lixiao.down.service.XiaoGeDownLoaderService" />
-103-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:91:9-82
-103-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:91:18-80
-104        <service android:name="com.lixiao.oss.service.OssService" />
-104-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:92:9-68
-104-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:92:18-66
-105
-106        <provider
-106-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-107            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-107-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-108            android:authorities="com.newbee.lixiaomodel.lifecycle-process"
-108-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-109            android:exported="false"
-109-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-110            android:multiprocess="true" />
-110-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-111        <provider
-111-->[com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cae35f3eb0707e4f88fe7638029bd449\jetified-okdownload-1.0.6\AndroidManifest.xml:9:9-12:40
-112            android:name="com.liulishuo.okdownload.OkDownloadProvider"
-112-->[com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cae35f3eb0707e4f88fe7638029bd449\jetified-okdownload-1.0.6\AndroidManifest.xml:10:13-71
-113            android:authorities="com.newbee.lixiaomodel.com.liulishuo.okdownload"
-113-->[com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cae35f3eb0707e4f88fe7638029bd449\jetified-okdownload-1.0.6\AndroidManifest.xml:11:13-76
-114            android:exported="false" />
-114-->[com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cae35f3eb0707e4f88fe7638029bd449\jetified-okdownload-1.0.6\AndroidManifest.xml:12:13-37
-115    </application>
-116
-117</manifest>
+102        <activity android:name="com.newbee.lixiaomodel.TestMyRadioGroupActivity" />
+102-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:91:9-61
+102-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:91:19-59
+103
+104        <service android:name="com.lixiao.down.service.XiaoGeDownLoaderService" />
+104-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:92:9-82
+104-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:92:18-80
+105        <service android:name="com.lixiao.oss.service.OssService" />
+105-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:93:9-68
+105-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:93:18-66
+106
+107        <provider
+107-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+108            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+108-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+109            android:authorities="com.newbee.lixiaomodel.lifecycle-process"
+109-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+110            android:exported="false"
+110-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+111            android:multiprocess="true" />
+111-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+112        <provider
+112-->[com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cae35f3eb0707e4f88fe7638029bd449\jetified-okdownload-1.0.6\AndroidManifest.xml:9:9-12:40
+113            android:name="com.liulishuo.okdownload.OkDownloadProvider"
+113-->[com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cae35f3eb0707e4f88fe7638029bd449\jetified-okdownload-1.0.6\AndroidManifest.xml:10:13-71
+114            android:authorities="com.newbee.lixiaomodel.com.liulishuo.okdownload"
+114-->[com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cae35f3eb0707e4f88fe7638029bd449\jetified-okdownload-1.0.6\AndroidManifest.xml:11:13-76
+115            android:exported="false" />
+115-->[com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cae35f3eb0707e4f88fe7638029bd449\jetified-okdownload-1.0.6\AndroidManifest.xml:12:13-37
+116    </application>
+117
+118</manifest>

@@ -100,6 +100,7 @@
         <activity android:name="com.newbee.lixiaomodel.UserPrivateAgreemeetActivity" />
         <activity android:name="com.newbee.lixiaomodel.TestDownActivity" />
         <activity android:name="com.newbee.lixiaomodel.TestUploadActivity" />
+        <activity android:name="com.newbee.lixiaomodel.TestMyRadioGroupActivity" />
 
         <service android:name="com.lixiao.down.service.XiaoGeDownLoaderService" />
         <service android:name="com.lixiao.oss.service.OssService" />

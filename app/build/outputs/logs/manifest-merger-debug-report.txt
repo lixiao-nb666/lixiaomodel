@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-94:12
-INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-94:12
-INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-94:12
-INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-94:12
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-95:12
+INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-95:12
+INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-95:12
+INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-95:12
 MERGED from [:developmenttool] F:\CBR\lixiaomodel\developmenttool\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9cd54f73ae879248b83fa8524fb53b1\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bb3b8314c8a81c9eb23d354b8962ee67\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -36,20 +36,20 @@ MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\Administrator\.gradl
 MERGED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cae35f3eb0707e4f88fe7638029bd449\jetified-okdownload-1.0.6\AndroidManifest.xml:2:1-15:12
 MERGED from [com.liulishuo.okdownload:sqlite:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\29652c932b005087228f49ca027b0368\jetified-sqlite-1.0.6\AndroidManifest.xml:2:1-7:12
 MERGED from [com.liulishuo.okdownload:okhttp:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\17469a1494c93bec1db85846ea1042df\jetified-okhttp-1.0.6\AndroidManifest.xml:2:1-7:12
-INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-94:12
-INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-94:12
-INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-94:12
+INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-95:12
+INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-95:12
+INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-95:12
 	package
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:2:5-37
 		INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml
 		INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-94:12
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-95:12
 		INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-94:12
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-95:12
 		INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:11-69
@@ -232,7 +232,7 @@ ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:60:5-76
 	android:name
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:60:22-74
 application
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:66:5-93:19
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:66:5-94:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0ee36926f1eda7ddbd76d3b1f2817724\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0ee36926f1eda7ddbd76d3b1f2817724\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.core:core:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ccd44a1c6037088ddaa2e65bd234864d\core-1.3.0\AndroidManifest.xml:24:5-89
@@ -301,14 +301,18 @@ activity#com.newbee.lixiaomodel.TestUploadActivity
 ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:90:9-55
 	android:name
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:90:19-53
+activity#com.newbee.lixiaomodel.TestMyRadioGroupActivity
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:91:9-61
+	android:name
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:91:19-59
 service#com.lixiao.down.service.XiaoGeDownLoaderService
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:91:9-82
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:92:9-82
 	android:name
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:91:18-80
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:92:18-80
 service#com.lixiao.oss.service.OssService
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:92:9-68
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:93:9-68
 	android:name
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:92:18-66
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:93:18-66
 uses-sdk
 INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml

@@ -40,7 +40,7 @@ public class DemoActivity extends BaseWelcomeActivity {
     @Override
     public void showOverNeedDo() {
         TestSql.getInstance().que11();
-        toActivity(LauncherActivity.class);
+        toActivity(TestMyRadioGroupActivity.class);
     }
 
     @Override

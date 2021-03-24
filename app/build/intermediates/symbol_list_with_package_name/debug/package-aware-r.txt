@@ -1008,6 +1008,7 @@ id list_item
 id ll_app
 id message
 id middle
+id mrg
 id multiply
 id never
 id none
@@ -1144,6 +1145,7 @@ layout abc_tooltip
 layout activity_password
 layout activity_qrcode_capture_layout
 layout activity_test_down
+layout activity_test_radiogroup
 layout activity_user_private
 layout adapter_apps_layout
 layout base_activity_welcome

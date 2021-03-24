@@ -12,6 +12,10 @@
         "source": "F:\\CBR\\lixiaomodel\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test_radiogroup.xml.flat",
+        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\layout\\activity_test_radiogroup.xml"
+    },
+    {
         "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
