@@ -28,9 +28,15 @@ public class MyRadioGroup extends RadioGroup {
 
     private void init(){
         setOnCheckedChangeListener(new OnCheckedChangeListener() {
+            int i=0;
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 try {
+                    if(i==0){
+                        i++;
+                        return;
+                    }
+                    i++;
                     MyRadioDataInfoBean dataInfoBean=list.get(checkedId);
                     itemClick.nowSelect(dataInfoBean);
                 }catch (Exception e){}
@@ -89,7 +95,7 @@ public class MyRadioGroup extends RadioGroup {
                     }else{
                         if(!TextUtils.isEmpty(dataInfoBean.getType())&&defSelectType.equals(dataInfoBean.getType())){
                             radioButton.setChecked(true);
-                            itemClick.nowSelect(dataInfoBean);
+                            itemClick.initSelect(dataInfoBean);
                         }
                     }
                     radioButton.setId(i);
@@ -101,6 +107,8 @@ public class MyRadioGroup extends RadioGroup {
     }
 
     public interface ItemClick{
+
+        public void initSelect(MyRadioDataInfoBean dataInfoBean);
 
         public void nowSelect(MyRadioDataInfoBean dataInfoBean);
     }

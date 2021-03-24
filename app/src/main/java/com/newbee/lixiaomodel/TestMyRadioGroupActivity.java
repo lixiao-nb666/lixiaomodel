@@ -17,6 +17,11 @@ public class TestMyRadioGroupActivity extends BaseCompatActivity {
     private MyRadioGroup myRadioGroup;
     private MyRadioGroup.ItemClick itemClick=new MyRadioGroup.ItemClick() {
         @Override
+        public void initSelect(MyRadioDataInfoBean dataInfoBean) {
+            LG.i(tag,"-----------initSelect:"+dataInfoBean);
+        }
+
+        @Override
         public void nowSelect(MyRadioDataInfoBean dataInfoBean) {
             LG.i(tag,"-----------kankannowdatainfoBean:"+dataInfoBean);
         }
