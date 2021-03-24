@@ -25,6 +25,7 @@ import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Message;
 import android.os.Vibrator;
 import android.provider.MediaStore;
 import android.view.SurfaceHolder;
@@ -339,7 +340,10 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback,
 
                 Result result = ZXingUtils.scanningImage(photo_path);
                 if (result == null) {
-                    msgHandler.sendEmptyMessage(SHOW_TOAST_MSG);
+                    Message message=new Message();
+                    message.what=SHOW_TOAST_MSG;
+
+                    msgHandler.sendMessageDelayed(message,1);
 
                 } else {
                     // 数据返回

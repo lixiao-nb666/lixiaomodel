@@ -16,29 +16,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/out/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/newbee/lixiaomodel/TestMyRadioGroupActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/newbee/lixiaomodel/TestMyRadioGroupActivity$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/newbee/lixiaomodel/TestMyRadioGroupActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/newbee/lixiaomodel/TestMyRadioGroupActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/newbee/lixiaomodel/TestMyRadioGroupActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/newbee/lixiaomodel/TestMyRadioGroupActivity$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/newbee/lixiaomodel/TestMyRadioGroupActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/newbee/lixiaomodel/TestMyRadioGroupActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/newbee/lixiaomodel/TestMyRadioGroupActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/newbee/lixiaomodel/TestMyRadioGroupActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/.transforms/f797a2a604c2e9481b454b849f787c66/classes/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/.transforms/f797a2a604c2e9481b454b849f787c66/classes/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/compile_library_classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/compile_library_classes/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/view/radiogroup/MyRadioGroup$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/view/radiogroup/MyRadioGroup$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/view/radiogroup/MyRadioGroup$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/view/radiogroup/MyRadioGroup$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/view/radiogroup/MyRadioGroup$ItemClick.class" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/view/radiogroup/MyRadioGroup$ItemClick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/view/radiogroup/MyRadioGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/view/radiogroup/MyRadioGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/runtime_library_classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/runtime_library_classes/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/src/main/java/com/lixiao/view/radiogroup/MyRadioGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/src/main/java/com/lixiao/view/radiogroup/MyRadioGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developmenttool/src/main/java/com/lixiao/build/mybase/activity/launcher/BaseLauncherActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/src/main/java/com/lixiao/build/mybase/activity/launcher/BaseLauncherActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developmenttool/src/main/java/com/lixiao/build/mybase/activity/welcome/BaseWelcomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/src/main/java/com/lixiao/build/mybase/activity/welcome/BaseWelcomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developmenttool/src/main/java/com/lixiao/build/zxing/app/CaptureActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/src/main/java/com/lixiao/build/zxing/app/CaptureActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -477,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616567627534</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="修改radiogroup数据返回bug">
+      <created>1616576139807</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1616576139807</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +487,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="提交运行的应用数据上去" />
     <MESSAGE value="应用数据的方法改成public" />
     <MESSAGE value="新增shellUtil,修改了卸载的代码,自动检测可以静默卸载" />
     <MESSAGE value="修改了baseLuancher可以自己输入标题" />
@@ -519,6 +511,7 @@
     <MESSAGE value="增加activityUtil" />
     <MESSAGE value="小修改" />
     <MESSAGE value="加一个自定义的radiogroup" />
-    <option name="LAST_COMMIT_MESSAGE" value="加一个自定义的radiogroup" />
+    <MESSAGE value="修改radiogroup数据返回bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改radiogroup数据返回bug" />
   </component>
 </project>

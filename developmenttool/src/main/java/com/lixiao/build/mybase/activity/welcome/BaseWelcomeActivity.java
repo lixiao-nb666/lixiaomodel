@@ -166,7 +166,9 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
     private Runnable permissionsRunnable = new Runnable() {
         @Override
         public void run() {
-            permissionsHandler.sendEmptyMessage(GET_PERSSIONS_OK);
+            Message message=new Message();
+            message.what=GET_PERSSIONS_OK;
+            permissionsHandler.sendMessageDelayed(message,1);
         }
     };
 

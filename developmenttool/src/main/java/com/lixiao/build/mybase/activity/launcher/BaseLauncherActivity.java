@@ -86,7 +86,7 @@ public  class BaseLauncherActivity extends BaseCompatActivity {
                     Message message=new Message();
                     message.what=init_list;
                     message.obj=object;
-                    viewHandler.sendMessage(message);
+                    viewHandler.sendMessageDelayed(message,1);
                     break;
                 case ERR:
                     break;
@@ -185,7 +185,10 @@ public  class BaseLauncherActivity extends BaseCompatActivity {
         } else {
             appsGV.setNumColumns(5);
         }
-        viewHandler.sendEmptyMessage(reset_list);
+        Message message=new Message();
+        message.what=reset_list;
+
+        viewHandler.sendMessageDelayed(message,1);
     }
 
 
