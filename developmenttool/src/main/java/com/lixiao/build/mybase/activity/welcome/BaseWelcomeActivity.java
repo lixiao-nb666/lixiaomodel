@@ -87,8 +87,6 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
 
     @Override
     public void viewIsPause() {
-
-        permissionsHandler.removeCallbacks(permissionsRunnable);
     }
 
     @Override
@@ -150,35 +148,17 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
 
 
 
-    private Handler permissionsHandler = new Handler() {
-        @Override
-        public void handleMessage(Message msg) {
-            super.handleMessage(msg);
-            switch (msg.what) {
-                case GET_PERSSIONS_OK:
-                    MyApplicationFile.getInstance().mkFile();
-                    showOverNeedDo();
-                    finish();
-                    break;
-            }
-        }
-    };
-    private Runnable permissionsRunnable = new Runnable() {
-        @Override
-        public void run() {
-            Message message=new Message();
-            message.what=GET_PERSSIONS_OK;
-            permissionsHandler.sendMessageDelayed(message,1);
-        }
-    };
+
+
 
     private  boolean nowSendPermissionOkIsStart=false;
-    private final int GET_PERSSIONS_OK = 2;
+    
     //发送权限OK的消息
     private void sendPermissionIsOkMessage() {
         nowSendPermissionOkIsStart=true;
-        permissionsHandler.removeCallbacks(permissionsRunnable);
-        permissionsHandler.postDelayed(permissionsRunnable,welcomeInfoBean.getShowTime());
+        MyApplicationFile.getInstance().mkFile();
+        showOverNeedDo();
+        finish();
 
     }
 
