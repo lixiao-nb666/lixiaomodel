@@ -152,7 +152,7 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
 
 
     private  boolean nowSendPermissionOkIsStart=false;
-    
+
     //发送权限OK的消息
     private void sendPermissionIsOkMessage() {
         nowSendPermissionOkIsStart=true;
