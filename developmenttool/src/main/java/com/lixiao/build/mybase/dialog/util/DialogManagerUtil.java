@@ -40,7 +40,7 @@ public class DialogManagerUtil {
 
     }
 
-    public void show(String dialogType){
+    public void show(String dialogType,Object... objects){
         if(TextUtils.isEmpty(dialogType)){
             listen.err("show dialog but dialogtype == null");
             return;
@@ -53,7 +53,7 @@ public class DialogManagerUtil {
             }
             dialogMap.put(dialogType,baseDialog);
         }
-        baseDialog.show();
+        baseDialog.show(objects);
     }
 
     public void hide(String dialogType){
