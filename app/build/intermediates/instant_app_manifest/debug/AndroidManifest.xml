@@ -89,7 +89,7 @@
             android:name="org.apache.http.legacy"
             android:required="false" />
 
-        <activity android:name="com.newbee.lixiaomodel.DemoActivity" >
+        <activity android:name="com.newbee.lixiaomodel.OpenGlTextActivity1" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -101,7 +101,7 @@
         <activity android:name="com.newbee.lixiaomodel.TestDownActivity" />
         <activity android:name="com.newbee.lixiaomodel.TestUploadActivity" />
         <activity android:name="com.newbee.lixiaomodel.TestMyRadioGroupActivity" />
-
+        <!-- <activity android:name=".OpenGlTextActivity1"/> -->
         <service android:name="com.lixiao.down.service.XiaoGeDownLoaderService" />
         <service android:name="com.lixiao.oss.service.OssService" />
 

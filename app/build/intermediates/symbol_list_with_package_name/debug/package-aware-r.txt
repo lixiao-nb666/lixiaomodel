@@ -862,6 +862,7 @@ drawable ic_launcher_foreground
 drawable icon_back
 drawable launcher_app_list
 drawable launcher_app_list_bg
+drawable main
 drawable mm_title_back_btn
 drawable notification_action_background
 drawable notification_bg
@@ -993,6 +994,9 @@ id italic
 id item_footer
 id item_title
 id item_touch_helper_previous_elevation
+id iv1
+id iv2
+id iv3
 id iv_add
 id iv_app_icon
 id iv_back
@@ -1142,6 +1146,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_opengl1
 layout activity_password
 layout activity_qrcode_capture_layout
 layout activity_test_down

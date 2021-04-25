@@ -5,8 +5,10 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 
+import com.lixiao.developmenttool.R;
+
 public abstract class BaseDialog {
-    private final String tag=getClass().getSimpleName()+">>>>";
+    protected final String tag=getClass().getSimpleName()+">>>>";
     private AlertDialog alertDialog;
     protected abstract int bindView();
     protected abstract void initView(View view);

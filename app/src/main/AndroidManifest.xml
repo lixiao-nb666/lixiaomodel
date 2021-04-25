@@ -78,7 +78,7 @@
 
 
         <activity
-            android:name=".DemoActivity">
+            android:name=".OpenGlTextActivity1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -89,6 +89,7 @@
         <activity android:name=".TestDownActivity"/>
         <activity android:name=".TestUploadActivity"/>
         <activity android:name=".TestMyRadioGroupActivity"/>
+<!--        <activity android:name=".OpenGlTextActivity1"/>-->
         <service android:name="com.lixiao.down.service.XiaoGeDownLoaderService"/>
         <service android:name="com.lixiao.oss.service.OssService"/>
     </application>

@@ -20,7 +20,7 @@ public class DemoActivity extends BaseWelcomeActivity {
     @Override
     public WelcomeInfoBean getWelcomeInfoBean() {
         WelcomeInfoBean welcomeInfoBean=new WelcomeInfoBean();
-        welcomeInfoBean.setShowTime(1000);
+        welcomeInfoBean.setShowTime(1);
 //        welcomeInfoBean.setBackGroundRsId(R.color.red);
 //        welcomeInfoBean.setIconRsId(R.drawable.lixiao);
         List<String> permissions = new ArrayList<>();
@@ -45,6 +45,6 @@ public class DemoActivity extends BaseWelcomeActivity {
 
     @Override
     public void toUserPrivateAgreemeetActivity() {
-        toActivity(UserPrivateAgreemeetActivity.class);
+        toActivity(OpenGlTextActivity1.class);
     }
 }

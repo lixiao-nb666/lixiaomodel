@@ -197,6 +197,8 @@ public class MyGlide {
     }
 
 
+
+
     public void getBitmap(Context context,final String url, final GetBitmapImp getBitmapImp) {
 //        .skipMemoryCache(false). signature(new StringSignature(UUID.randomUUID().toString())
         Glide.with(context).load(url).asBitmap().into(new SimpleTarget<Bitmap>() {
@@ -212,6 +214,32 @@ public class MyGlide {
     }
 
     public void getBitmap(final Context context, final String url, final GetBitmapImp getBitmapImp, final int needW, final int needH) {
+        Glide.with(context).load(url).asBitmap().into(new SimpleTarget<Bitmap>() {
+            @Override
+            public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
+                Bitmap bm = Bitmap.createScaledBitmap(resource, needW, needH, true);
+                if (getBitmapImp != null) {
+                    getBitmapImp.getBitmap(bm);
+                }
+            }
+        }); //方法中设置asBitmap可以设置回调类型
+    }
+
+    public void getBitmap(Context context,final int url, final GetBitmapImp getBitmapImp) {
+//        .skipMemoryCache(false). signature(new StringSignature(UUID.randomUUID().toString())
+        Glide.with(context).load(url).asBitmap().into(new SimpleTarget<Bitmap>() {
+            @Override
+            public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
+                Bitmap bm = Bitmap.createScaledBitmap(resource, 150, 150, true);
+                if (getBitmapImp != null) {
+                    getBitmapImp.getBitmap(bm);
+                }
+            }
+        }); //方法中设置asBitmap可以设置回调类型
+
+    }
+
+    public void getBitmap(final Context context, final int url, final GetBitmapImp getBitmapImp, final int needW, final int needH) {
         Glide.with(context).load(url).asBitmap().into(new SimpleTarget<Bitmap>() {
             @Override
             public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
@@ -259,6 +287,8 @@ public class MyGlide {
             return false;
         }
     }
+
+
 
     public interface GetBitmapImp {
         public void getBitmap(Bitmap bitmap);

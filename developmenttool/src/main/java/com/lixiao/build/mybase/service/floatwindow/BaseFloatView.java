@@ -29,8 +29,8 @@ public abstract class BaseFloatView {
      */
     protected View getView(){ return view;}
     protected int getW(){return 0;}
-    protected   int getH(){return 0;}
-    protected  int getScrollX(){return 0;}
+    protected int getH(){return 0;}
+    protected int getScrollX(){return 0;}
     protected int getScrollY(){return 0;}
     protected boolean needUseShareXAndY(){return false;}
 
