@@ -20,7 +20,7 @@ public class DemoActivity extends BaseWelcomeActivity {
     @Override
     public WelcomeInfoBean getWelcomeInfoBean() {
         WelcomeInfoBean welcomeInfoBean=new WelcomeInfoBean();
-        welcomeInfoBean.setShowTime(1);
+        welcomeInfoBean.setShowTime(10000);
 //        welcomeInfoBean.setBackGroundRsId(R.color.red);
 //        welcomeInfoBean.setIconRsId(R.drawable.lixiao);
         List<String> permissions = new ArrayList<>();

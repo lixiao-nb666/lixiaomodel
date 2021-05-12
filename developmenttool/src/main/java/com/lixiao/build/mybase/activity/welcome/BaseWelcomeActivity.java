@@ -6,8 +6,6 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
-import android.os.Handler;
-import android.os.Message;
 import android.provider.Settings;
 import android.view.View;
 import android.widget.ImageView;
@@ -17,7 +15,6 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ActivityCompat;
-import com.lixiao.build.glide.MyGlide;
 import com.lixiao.build.mybase.activity.BaseCompatActivity;
 import com.lixiao.build.mybase.activity.welcome.bean.WelcomeInfoBean;
 import com.lixiao.build.mybase.appliction.MyApplicationFile;
@@ -55,7 +52,9 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
             welcomeInfoBean=new WelcomeInfoBean();
         }
         bgRL.setBackgroundResource(welcomeInfoBean.getBackGroundRsId());
-        MyGlide.getInstance().setBitMap(welcomeIV,welcomeInfoBean.getIconRsId());
+        if(0!=welcomeInfoBean.getIconRsId()){
+            welcomeIV.setImageResource(welcomeInfoBean.getIconRsId());
+        }
         userAgress.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

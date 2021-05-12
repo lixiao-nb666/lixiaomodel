@@ -15,27 +15,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3de6b48c-5bc8-46fe-9360-2e12c684ec30" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/compiled_local_resources/debug/out/layout-v2_activity_version_update.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/compiled_local_resources/debug/out/layout-v2_activity_version_update.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/packaged_res/debug/layout-v2/activity_version_update.xml" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/packaged_res/debug/layout-v2/activity_version_update.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/src/main/res/layout-v2/activity_version_update.xml" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/src/main/res/layout-v2/activity_version_update.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/newbee/lixiaomodel/DemoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/newbee/lixiaomodel/DemoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developmenttool/src/main/java/com/lixiao/build/mybase/activity/welcome/BaseWelcomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/src/main/java/com/lixiao/build/mybase/activity/welcome/BaseWelcomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developmenttool/src/main/res/layout/base_activity_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/src/main/res/layout/base_activity_welcome.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@WEY6R17823000077]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@WEY6R17823000845]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -521,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620782639510</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="增加版本更新">
+      <created>1620782913415</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1620782913415</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -537,7 +536,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增OSS配置参数接口" />
     <MESSAGE value="修改okhttp的失败返回结构体" />
     <MESSAGE value="修改glide加载框架工具类" />
     <MESSAGE value="DEMO修改成新方法" />
@@ -562,17 +560,18 @@
     <MESSAGE value="修改baseFloatWindow" />
     <MESSAGE value="修改baseDialog" />
     <MESSAGE value="增加剪裁的方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加剪裁的方法" />
+    <MESSAGE value="增加版本更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加版本更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1620700022769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1620700022769" />
-    <state x="557" y="87" key="CommitChangelistDialog2" timestamp="1620782625874">
+    <state x="557" y="87" key="CommitChangelistDialog2" timestamp="1620782911149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="557" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1620782625874" />
+    <state x="557" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1620782911149" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1620630968698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -593,9 +592,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1860" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620696357156" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1620782635244">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1620782917705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1620782635244" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1620782917705" />
+    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1620799039129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1620799039129" />
   </component>
 </project>
