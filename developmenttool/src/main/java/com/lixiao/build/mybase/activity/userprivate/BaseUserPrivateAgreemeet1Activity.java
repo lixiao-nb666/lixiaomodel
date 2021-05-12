@@ -67,10 +67,8 @@ public  abstract class BaseUserPrivateAgreemeet1Activity extends BaseCompatActiv
                 "本保密协议的解释权归"+companyName+"公司所有。\n" +
                 "\n" +
                 companyName+"公司\n" +
-                "\n" +
-                time;
-
-                userPrivateBodyTV.setText(priveStr);
+                "\n" + time;
+        userPrivateBodyTV.setText(priveStr);
 
     }
 

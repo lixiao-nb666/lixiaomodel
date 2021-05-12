@@ -183,6 +183,7 @@ drawable photo_drawable_btn
 drawable qrcode_drawable_btn
 drawable qrcode_view
 id auto_focus
+id bt_update_now
 id button_back
 id decode
 id decode_failed
@@ -198,6 +199,7 @@ id iv_back
 id iv_welcome
 id launch_product_query
 id ll_app
+id ll_bg
 id photo_btn
 id preview_view
 id quit
@@ -209,13 +211,17 @@ id search_book_contents_failed
 id search_book_contents_succeeded
 id textview_title
 id tv_app_name
+id tv_down_info
 id tv_private
+id tv_show_update_info
 id tv_title
+id tv_update_version_name
 id tv_user_apreements
 id tv_user_private_body
 id viewfinder_view
 layout activity_qrcode_capture_layout
 layout activity_user_private
+layout activity_version_update
 layout adapter_apps_layout
 layout base_activity_welcome
 layout item_qrcode_footer
@@ -260,6 +266,7 @@ string launcher_system_video_vga
 string launcher_system_videos
 string msg_bulk_mode_scanned
 string msg_camera_framework_bug
+string now_update_version
 string ok
 string preferences_actions_title
 string preferences_copy_to_clipboard_title
@@ -277,6 +284,7 @@ string preferences_vibrate
 string preferences_vibrate_title
 string preview_msg
 string scan_text
+string update_version_info
 string user_agreements_and_privacy_policies
 string user_private_agree
 string user_private_policy

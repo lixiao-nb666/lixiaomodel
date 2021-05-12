@@ -30,6 +30,74 @@
     </LinearLayout>
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                />
+            <com.newbee.lixiaomodel.View1
+
+                android:layout_width="50px"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <com.newbee.lixiaomodel.View2
+
+                android:layout_width="50px"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                />
+            <com.newbee.lixiaomodel.View1
+
+                android:layout_width="50px"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <com.newbee.lixiaomodel.View2
+
+                android:layout_width="50px"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+
+                />
+            <ImageView
+
+                android:layout_width="50px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
 
 </FrameLayout>

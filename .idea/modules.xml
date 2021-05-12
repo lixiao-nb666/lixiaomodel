@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="lixiaomodel/app" />
-      <module fileurl="file://$PROJECT_DIR$/developmenttool/developmenttool.iml" filepath="$PROJECT_DIR$/developmenttool/developmenttool.iml" group="lixiaomodel/developmenttool" />
-      <module fileurl="file://$PROJECT_DIR$/lixiaomodel.iml" filepath="$PROJECT_DIR$/lixiaomodel.iml" group="lixiaomodel" />
+      <module fileurl="file://$PROJECT_DIR$/lixiaomodel.iml" filepath="$PROJECT_DIR$/lixiaomodel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/lixiaomodel.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/lixiaomodel.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/developmenttool/lixiaomodel.developmenttool.iml" filepath="$PROJECT_DIR$/.idea/modules/developmenttool/lixiaomodel.developmenttool.iml" />
     </modules>
   </component>
 </project>

@@ -98,5 +98,9 @@
     {
         "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_inno_cn_update_version.png.flat",
+        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\drawable\\bg_inno_cn_update_version.png"
     }
 ]

@@ -53,6 +53,7 @@
     <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
     <uses-permission android:name="android.permission.SERIAL_PORT" />
     <uses-permission android:name="android.permission.RECOVERY" />
+
     <!-- Required -->
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -78,7 +79,7 @@
 
 
         <activity
-            android:name=".OpenGlTextActivity1">
+            android:name=".TestUpdateVersionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -89,6 +90,7 @@
         <activity android:name=".TestDownActivity"/>
         <activity android:name=".TestUploadActivity"/>
         <activity android:name=".TestMyRadioGroupActivity"/>
+<!--        <activity android:name=".TestUpdateVersionActivity"/>-->
 <!--        <activity android:name=".OpenGlTextActivity1"/>-->
         <service android:name="com.lixiao.down.service.XiaoGeDownLoaderService"/>
         <service android:name="com.lixiao.oss.service.OssService"/>

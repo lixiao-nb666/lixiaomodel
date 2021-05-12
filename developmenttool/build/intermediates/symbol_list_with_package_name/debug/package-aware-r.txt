@@ -902,6 +902,7 @@ id async
 id auto_focus
 id blocking
 id bottom
+id bt_update_now
 id buttonPanel
 id button_back
 id checkbox
@@ -948,6 +949,7 @@ id line3
 id listMode
 id list_item
 id ll_app
+id ll_bg
 id message
 id multiply
 id none
@@ -1021,8 +1023,11 @@ id title_template
 id top
 id topPanel
 id tv_app_name
+id tv_down_info
 id tv_private
+id tv_show_update_info
 id tv_title
+id tv_update_version_name
 id tv_user_apreements
 id tv_user_private_body
 id uniform
@@ -1066,6 +1071,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_qrcode_capture_layout
 layout activity_user_private
+layout activity_version_update
 layout adapter_apps_layout
 layout base_activity_welcome
 layout custom_dialog
@@ -1161,6 +1167,7 @@ string launcher_system_video_vga
 string launcher_system_videos
 string msg_bulk_mode_scanned
 string msg_camera_framework_bug
+string now_update_version
 string ok
 string preferences_actions_title
 string preferences_copy_to_clipboard_title
@@ -1180,6 +1187,7 @@ string preview_msg
 string scan_text
 string search_menu_title
 string status_bar_notification_info_overflow
+string update_version_info
 string user_agreements_and_privacy_policies
 string user_private_agree
 string user_private_policy

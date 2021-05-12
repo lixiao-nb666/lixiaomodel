@@ -901,6 +901,7 @@ int id async 0x0
 int id auto_focus 0x0
 int id blocking 0x0
 int id bottom 0x0
+int id bt_update_now 0x0
 int id buttonPanel 0x0
 int id button_back 0x0
 int id checkbox 0x0
@@ -947,6 +948,7 @@ int id line3 0x0
 int id listMode 0x0
 int id list_item 0x0
 int id ll_app 0x0
+int id ll_bg 0x0
 int id message 0x0
 int id multiply 0x0
 int id none 0x0
@@ -1020,8 +1022,11 @@ int id title_template 0x0
 int id top 0x0
 int id topPanel 0x0
 int id tv_app_name 0x0
+int id tv_down_info 0x0
 int id tv_private 0x0
+int id tv_show_update_info 0x0
 int id tv_title 0x0
+int id tv_update_version_name 0x0
 int id tv_user_apreements 0x0
 int id tv_user_private_body 0x0
 int id uniform 0x0
@@ -1065,6 +1070,7 @@ int layout abc_select_dialog_material 0x0
 int layout abc_tooltip 0x0
 int layout activity_qrcode_capture_layout 0x0
 int layout activity_user_private 0x0
+int layout activity_version_update 0x0
 int layout adapter_apps_layout 0x0
 int layout base_activity_welcome 0x0
 int layout custom_dialog 0x0
@@ -1160,6 +1166,7 @@ int string launcher_system_video_vga 0x0
 int string launcher_system_videos 0x0
 int string msg_bulk_mode_scanned 0x0
 int string msg_camera_framework_bug 0x0
+int string now_update_version 0x0
 int string ok 0x0
 int string preferences_actions_title 0x0
 int string preferences_copy_to_clipboard_title 0x0
@@ -1179,6 +1186,7 @@ int string preview_msg 0x0
 int string scan_text 0x0
 int string search_menu_title 0x0
 int string status_bar_notification_info_overflow 0x0
+int string update_version_info 0x0
 int string user_agreements_and_privacy_policies 0x0
 int string user_private_agree 0x0
 int string user_private_policy 0x0

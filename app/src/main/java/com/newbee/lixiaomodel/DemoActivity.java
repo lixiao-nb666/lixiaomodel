@@ -45,6 +45,6 @@ public class DemoActivity extends BaseWelcomeActivity {
 
     @Override
     public void toUserPrivateAgreemeetActivity() {
-        toActivity(OpenGlTextActivity1.class);
+        toActivity(TestUpdateVersionActivity.class);
     }
 }

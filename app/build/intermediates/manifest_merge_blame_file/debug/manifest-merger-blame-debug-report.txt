@@ -144,109 +144,111 @@
 65    <uses-permission android:name="android.permission.RECOVERY" />
 65-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:55:5-67
 65-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:55:22-64
-66    <!-- Required -->
-67    <uses-permission android:name="android.permission.VIBRATE" />
-67-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:57:5-66
-67-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:57:22-63
-68    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-68-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:40:5-81
-68-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:40:22-78
-69    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-69-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:52:5-78
-69-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:52:22-75
-70    <uses-permission android:name="android.hardware.sensor.accelerometer" />
-70-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:60:5-76
-70-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:60:22-74
-71
-72    <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
-73    <uses-permission android:name="android.permission.GET_TASKS" />
-73-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:30:5-68
-73-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:30:22-65
-74
-75    <application
-75-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:66:5-95:19
-76        android:name="com.newbee.lixiaomodel.MyApplication"
-76-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:73:9-38
-77        android:allowBackup="true"
-77-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:67:9-35
-78        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-78-->[androidx.core:core:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ccd44a1c6037088ddaa2e65bd234864d\core-1.3.0\AndroidManifest.xml:24:18-86
-79        android:debuggable="true"
-80        android:icon="@mipmap/ic_launcher"
-80-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:68:9-43
-81        android:label="@string/app_name"
-81-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:69:9-41
-82        android:roundIcon="@mipmap/ic_launcher_round"
-82-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:70:9-54
-83        android:supportsRtl="true"
-83-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:71:9-35
-84        android:testOnly="true"
-85        android:theme="@style/NewBee.BaseImmersiveThemeTransparentNavigation"
-85-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:74:9-78
-86        android:usesCleartextTraffic="true" >
-86-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:72:9-44
-87        <uses-library
-87-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:75:9-77:40
-88            android:name="org.apache.http.legacy"
-88-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:76:13-50
-89            android:required="false" />
-89-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:77:13-37
-90
-91        <activity android:name="com.newbee.lixiaomodel.OpenGlTextActivity1" >
-91-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:80:9-86:20
-91-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:81:13-48
-92            <intent-filter>
-92-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:82:13-85:29
-93                <action android:name="android.intent.action.MAIN" />
-93-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:83:17-69
-93-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:83:25-66
-94
-95                <category android:name="android.intent.category.LAUNCHER" />
-95-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:84:17-77
-95-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:84:27-74
-96            </intent-filter>
-97        </activity>
-98        <activity android:name="com.newbee.lixiaomodel.LauncherActivity" />
-98-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:87:9-53
-98-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:87:19-51
-99        <activity android:name="com.newbee.lixiaomodel.UserPrivateAgreemeetActivity" />
-99-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:88:9-65
-99-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:88:19-63
-100        <activity android:name="com.newbee.lixiaomodel.TestDownActivity" />
-100-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:89:9-53
-100-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:89:19-51
-101        <activity android:name="com.newbee.lixiaomodel.TestUploadActivity" />
-101-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:90:9-55
-101-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:90:19-53
-102        <activity android:name="com.newbee.lixiaomodel.TestMyRadioGroupActivity" />
-102-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:91:9-61
-102-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:91:19-59
-103        <!-- <activity android:name=".OpenGlTextActivity1"/> -->
-104        <service android:name="com.lixiao.down.service.XiaoGeDownLoaderService" />
-104-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:93:9-82
-104-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:93:18-80
-105        <service android:name="com.lixiao.oss.service.OssService" />
-105-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:94:9-68
-105-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:94:18-66
-106
-107        <provider
-107-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-108            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-108-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-109            android:authorities="com.newbee.lixiaomodel.lifecycle-process"
-109-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-110            android:exported="false"
-110-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-111            android:multiprocess="true" />
-111-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-112        <provider
-112-->[com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4db172982f7ca60b425de93ecf79703f\jetified-okdownload-1.0.6\AndroidManifest.xml:9:9-12:40
-113            android:name="com.liulishuo.okdownload.OkDownloadProvider"
-113-->[com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4db172982f7ca60b425de93ecf79703f\jetified-okdownload-1.0.6\AndroidManifest.xml:10:13-71
-114            android:authorities="com.newbee.lixiaomodel.com.liulishuo.okdownload"
-114-->[com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4db172982f7ca60b425de93ecf79703f\jetified-okdownload-1.0.6\AndroidManifest.xml:11:13-76
-115            android:exported="false" />
-115-->[com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4db172982f7ca60b425de93ecf79703f\jetified-okdownload-1.0.6\AndroidManifest.xml:12:13-37
-116    </application>
-117
-118</manifest>
+66
+67    <!-- Required -->
+68    <uses-permission android:name="android.permission.VIBRATE" />
+68-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:58:5-66
+68-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:58:22-63
+69    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+69-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:40:5-81
+69-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:40:22-78
+70    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+70-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:52:5-78
+70-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:52:22-75
+71    <uses-permission android:name="android.hardware.sensor.accelerometer" />
+71-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:61:5-76
+71-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:61:22-74
+72
+73    <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
+74    <uses-permission android:name="android.permission.GET_TASKS" />
+74-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:30:5-68
+74-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:30:22-65
+75
+76    <application
+76-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:67:5-97:19
+77        android:name="com.newbee.lixiaomodel.MyApplication"
+77-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:74:9-38
+78        android:allowBackup="true"
+78-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:68:9-35
+79        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+79-->[androidx.core:core:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ccd44a1c6037088ddaa2e65bd234864d\core-1.3.0\AndroidManifest.xml:24:18-86
+80        android:debuggable="true"
+81        android:icon="@mipmap/ic_launcher"
+81-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:69:9-43
+82        android:label="@string/app_name"
+82-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:70:9-41
+83        android:roundIcon="@mipmap/ic_launcher_round"
+83-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:71:9-54
+84        android:supportsRtl="true"
+84-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:72:9-35
+85        android:testOnly="true"
+86        android:theme="@style/NewBee.BaseImmersiveThemeTransparentNavigation"
+86-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:75:9-78
+87        android:usesCleartextTraffic="true" >
+87-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:73:9-44
+88        <uses-library
+88-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:76:9-78:40
+89            android:name="org.apache.http.legacy"
+89-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:77:13-50
+90            android:required="false" />
+90-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:78:13-37
+91
+92        <activity android:name="com.newbee.lixiaomodel.TestUpdateVersionActivity" >
+92-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:81:9-87:20
+92-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:82:13-54
+93            <intent-filter>
+93-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:83:13-86:29
+94                <action android:name="android.intent.action.MAIN" />
+94-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:84:17-69
+94-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:84:25-66
+95
+96                <category android:name="android.intent.category.LAUNCHER" />
+96-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:85:17-77
+96-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:85:27-74
+97            </intent-filter>
+98        </activity>
+99        <activity android:name="com.newbee.lixiaomodel.LauncherActivity" />
+99-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:88:9-53
+99-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:88:19-51
+100        <activity android:name="com.newbee.lixiaomodel.UserPrivateAgreemeetActivity" />
+100-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:89:9-65
+100-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:89:19-63
+101        <activity android:name="com.newbee.lixiaomodel.TestDownActivity" />
+101-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:90:9-53
+101-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:90:19-51
+102        <activity android:name="com.newbee.lixiaomodel.TestUploadActivity" />
+102-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:91:9-55
+102-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:91:19-53
+103        <activity android:name="com.newbee.lixiaomodel.TestMyRadioGroupActivity" />
+103-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:92:9-61
+103-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:92:19-59
+104        <!-- <activity android:name=".TestUpdateVersionActivity"/> -->
+105        <!-- <activity android:name=".OpenGlTextActivity1"/> -->
+106        <service android:name="com.lixiao.down.service.XiaoGeDownLoaderService" />
+106-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:95:9-82
+106-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:95:18-80
+107        <service android:name="com.lixiao.oss.service.OssService" />
+107-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:96:9-68
+107-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:96:18-66
+108
+109        <provider
+109-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+110            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+110-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+111            android:authorities="com.newbee.lixiaomodel.lifecycle-process"
+111-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+112            android:exported="false"
+112-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+113            android:multiprocess="true" />
+113-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+114        <provider
+114-->[com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f60f58ecc66ab75dcc016608f7cc3a10\jetified-okdownload-1.0.6\AndroidManifest.xml:9:9-12:40
+115            android:name="com.liulishuo.okdownload.OkDownloadProvider"
+115-->[com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f60f58ecc66ab75dcc016608f7cc3a10\jetified-okdownload-1.0.6\AndroidManifest.xml:10:13-71
+116            android:authorities="com.newbee.lixiaomodel.com.liulishuo.okdownload"
+116-->[com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f60f58ecc66ab75dcc016608f7cc3a10\jetified-okdownload-1.0.6\AndroidManifest.xml:11:13-76
+117            android:exported="false" />
+117-->[com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f60f58ecc66ab75dcc016608f7cc3a10\jetified-okdownload-1.0.6\AndroidManifest.xml:12:13-37
+118    </application>
+119
+120</manifest>
