@@ -51,7 +51,7 @@ public  class BaseLauncherActivity extends BaseCompatActivity {
     }
 
     public void nowLongClick(SystemAppInfoBean appInfoBean){
-        
+
     }
 
     public int getDefBg(){
@@ -73,7 +73,7 @@ public  class BaseLauncherActivity extends BaseCompatActivity {
         public void nowClicked(int index, View view, SystemAppInfoBean appInfoBean) {
             LG.i(tag,"====nowOpenApp:"+appInfoBean);
             if(needGetClick()){
-
+                nowClick(appInfoBean);
             }else {
                 if(StartOtherApkUtil.getInstance().checkAppIsInstalled(appInfoBean.getPakeageName())){
                     StartOtherApkUtil.getInstance().doStartApk(context, appInfoBean.getPakeageName(), appInfoBean.getIndexActivityClass());
@@ -87,7 +87,7 @@ public  class BaseLauncherActivity extends BaseCompatActivity {
         public void nowLongClicker(int index, View view, SystemAppInfoBean appInfoBean) {
             LG.i(tag,"====nowUninstallApp:"+appInfoBean);
             if(needGetOnLongClick()){
-
+               nowLongClick(appInfoBean);
             }else {
                 if(StartOtherApkUtil.getInstance().checkAppIsInstalled(appInfoBean.getPakeageName())){
                     if(needAutoUninstall()){

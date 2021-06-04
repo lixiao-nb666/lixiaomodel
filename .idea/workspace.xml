@@ -15,45 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3de6b48c-5bc8-46fe-9360-2e12c684ec30" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_liulishuo_okdownload_okdownload_1_0_6_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_liulishuo_okdownload_okdownload_1_0_6_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_liulishuo_okdownload_okhttp_1_0_6_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_liulishuo_okdownload_okhttp_1_0_6_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_liulishuo_okdownload_sqlite_1_0_6_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_liulishuo_okdownload_sqlite_1_0_6_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/out/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/newbee/lixiaomodel/DemoActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/newbee/lixiaomodel/DemoActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/newbee/lixiaomodel/DemoActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/newbee/lixiaomodel/DemoActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/newbee/lixiaomodel/OpenGlTextActivity1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/newbee/lixiaomodel/OpenGlTextActivity1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/.transforms/f797a2a604c2e9481b454b849f787c66/classes/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/.transforms/f797a2a604c2e9481b454b849f787c66/classes/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/compile_library_classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/compile_library_classes/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/compiled_local_resources/debug/out/layout_base_activity_welcome.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/compiled_local_resources/debug/out/layout_base_activity_welcome.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/build/mybase/activity/welcome/BaseWelcomeActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/build/mybase/activity/welcome/BaseWelcomeActivity$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/build/mybase/activity/welcome/BaseWelcomeActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/build/mybase/activity/welcome/BaseWelcomeActivity$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/build/mybase/activity/welcome/BaseWelcomeActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/build/mybase/activity/welcome/BaseWelcomeActivity$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/build/mybase/activity/welcome/BaseWelcomeActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/build/mybase/activity/welcome/BaseWelcomeActivity$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/build/mybase/activity/welcome/BaseWelcomeActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/build/mybase/activity/welcome/BaseWelcomeActivity$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/build/mybase/activity/welcome/BaseWelcomeActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/javac/debug/classes/com/lixiao/build/mybase/activity/welcome/BaseWelcomeActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/packaged_res/debug/layout/base_activity_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/packaged_res/debug/layout/base_activity_welcome.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developmenttool/build/intermediates/runtime_library_classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/build/intermediates/runtime_library_classes/debug/classes.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/developmenttool/src/main/java/com/lixiao/build/mybase/activity/launcher/BaseLauncherActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/developmenttool/src/main/java/com/lixiao/build/mybase/activity/launcher/BaseLauncherActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +23,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@WEY6R17823000845]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -210,13 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610617003648</updated>
-    </task>
-    <task id="LOCAL-00002" summary="修改了新的util工具类，上传了二维码模块">
-      <created>1611976074427</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1611976074427</updated>
     </task>
     <task id="LOCAL-00003" summary="修改依赖版本号">
       <created>1611976650272</created>
@@ -554,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620806189782</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="BaseLauncher修改">
+      <created>1622775767131</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1622775767131</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -570,7 +532,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改glide加载框架工具类" />
     <MESSAGE value="DEMO修改成新方法" />
     <MESSAGE value="修改了二维码工具类，后续使用glide去加载那个图片，自带缓存机制比较好" />
     <MESSAGE value="baseActivity和baseFragment增加獲得String和color的方法" />
@@ -595,17 +556,18 @@
     <MESSAGE value="增加剪裁的方法" />
     <MESSAGE value="增加版本更新" />
     <MESSAGE value="修改welcome加载" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改welcome加载" />
+    <MESSAGE value="BaseLauncher修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="BaseLauncher修改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1620700022769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1620700022769" />
-    <state x="557" y="87" key="CommitChangelistDialog2" timestamp="1620806187672">
+    <state x="557" y="87" key="CommitChangelistDialog2" timestamp="1622775762665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="557" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1620806187672" />
+    <state x="557" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1622775762665" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1620630968698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -626,10 +588,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1860" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620696357156" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1620806221725">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1622775790949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1620806221725" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1622775790949" />
     <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1620799039129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
