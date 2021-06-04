@@ -271,10 +271,10 @@ ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:76:9-78:40
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:78:13-37
 	android:name
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:77:13-50
-activity#com.newbee.lixiaomodel.TestUpdateVersionActivity
+activity#com.newbee.lixiaomodel.DemoActivity
 ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:81:9-87:20
 	android:name
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:82:13-54
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:82:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:83:13-86:29
 action#android.intent.action.MAIN

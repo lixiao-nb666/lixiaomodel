@@ -40,6 +40,19 @@ public  class BaseLauncherActivity extends BaseCompatActivity {
     public  boolean needAutoUninstall(){
         return false;
     }
+    public boolean needGetClick(){
+        return false;
+    }
+    public boolean needGetOnLongClick(){
+        return false;
+    }
+    public void nowClick(SystemAppInfoBean appInfoBean){
+
+    }
+
+    public void nowLongClick(SystemAppInfoBean appInfoBean){
+        
+    }
 
     public int getDefBg(){
         return  R.drawable.launcher_app_list_bg;
@@ -59,21 +72,34 @@ public  class BaseLauncherActivity extends BaseCompatActivity {
         @Override
         public void nowClicked(int index, View view, SystemAppInfoBean appInfoBean) {
             LG.i(tag,"====nowOpenApp:"+appInfoBean);
-            if(StartOtherApkUtil.getInstance().checkAppIsInstalled(appInfoBean.getPakeageName())){
-                StartOtherApkUtil.getInstance().doStartApk(context, appInfoBean.getPakeageName(), appInfoBean.getIndexActivityClass());
+            if(needGetClick()){
+
+            }else {
+                if(StartOtherApkUtil.getInstance().checkAppIsInstalled(appInfoBean.getPakeageName())){
+                    StartOtherApkUtil.getInstance().doStartApk(context, appInfoBean.getPakeageName(), appInfoBean.getIndexActivityClass());
+                }
             }
+
+
         }
 
         @Override
         public void nowLongClicker(int index, View view, SystemAppInfoBean appInfoBean) {
             LG.i(tag,"====nowUninstallApp:"+appInfoBean);
-            if(StartOtherApkUtil.getInstance().checkAppIsInstalled(appInfoBean.getPakeageName())){
-                if(needAutoUninstall()){
-                    PackageUtils.uninstall(context,appInfoBean.getPakeageName());
-                }else {
-                    UninstallApkUtil.getInstance().uninstallBySystem(context,appInfoBean.getPakeageName());
+            if(needGetOnLongClick()){
+
+            }else {
+                if(StartOtherApkUtil.getInstance().checkAppIsInstalled(appInfoBean.getPakeageName())){
+                    if(needAutoUninstall()){
+                        PackageUtils.uninstall(context,appInfoBean.getPakeageName());
+                    }else {
+                        UninstallApkUtil.getInstance().uninstallBySystem(context,appInfoBean.getPakeageName());
+                    }
                 }
             }
+
+
+
         }
 
     };

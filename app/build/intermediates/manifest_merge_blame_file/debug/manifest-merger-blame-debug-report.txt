@@ -193,9 +193,9 @@
 90            android:required="false" />
 90-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:78:13-37
 91
-92        <activity android:name="com.newbee.lixiaomodel.TestUpdateVersionActivity" >
+92        <activity android:name="com.newbee.lixiaomodel.DemoActivity" >
 92-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:81:9-87:20
-92-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:82:13-54
+92-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:82:13-41
 93            <intent-filter>
 93-->F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:83:13-86:29
 94                <action android:name="android.intent.action.MAIN" />

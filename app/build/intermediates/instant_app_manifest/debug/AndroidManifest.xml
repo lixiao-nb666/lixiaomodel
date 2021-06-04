@@ -90,7 +90,7 @@
             android:name="org.apache.http.legacy"
             android:required="false" />
 
-        <activity android:name="com.newbee.lixiaomodel.TestUpdateVersionActivity" >
+        <activity android:name="com.newbee.lixiaomodel.DemoActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

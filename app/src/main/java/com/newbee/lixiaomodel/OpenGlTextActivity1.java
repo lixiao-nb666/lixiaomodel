@@ -18,14 +18,12 @@ import com.lixiao.build.glide.MyGlide;
  */
 public class OpenGlTextActivity1 extends ComponentActivity {
     private ImageView iv1,iv2,iv3;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
         setContentView(R.layout.activity_opengl1);
         initView();
         MyGlide.GetBitmapImp getBitmapImp=new MyGlide.GetBitmapImp() {
