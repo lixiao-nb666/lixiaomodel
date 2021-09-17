@@ -1,8 +1,7 @@
 package com.lixiao.build.mybase.activity.util;
 
+import android.app.Activity;
 import android.text.TextUtils;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +9,7 @@ import java.util.List;
 
 public class ActivityManager {
     private final String tag = "lixiaoActivityManager>>>"; // LOG信息
-    private List<AppCompatActivity> list= new ArrayList<>();
+    private List<Activity> list= new ArrayList<>();
     private static ActivityManager activityManager;
 
     private ActivityManager() {
@@ -37,7 +36,7 @@ public class ActivityManager {
 
 
     // 得到所有进行过，并且没有退出活动的实例
-    public List<AppCompatActivity> getlist() {
+    public List<Activity> getlist() {
         return list;
     }
 
@@ -51,7 +50,7 @@ public class ActivityManager {
         if(TextUtils.isEmpty(activityClassName)){
             return false;
         }
-        AppCompatActivity activity;
+        Activity activity;
         for(int i=0;i<list.size();i++){
            activity=list.get(i);
             if(activity!=null&&activityClassName.equals(activity.getClass().getName())&&!activity.isFinishing()){
@@ -72,7 +71,7 @@ public class ActivityManager {
         if(TextUtils.isEmpty(activityClassName)){
             return 0;
         }
-        AppCompatActivity activity;
+        Activity activity;
         int numb=0;
         for(int i=0;i<list.size();i++){
             activity=list.get(i);
@@ -84,7 +83,7 @@ public class ActivityManager {
     }
 
     // 添加活动实例
-    public void add(AppCompatActivity activity) {
+    public void add(Activity activity) {
 
         list.add(activity);
     }
@@ -92,7 +91,7 @@ public class ActivityManager {
 
 
     // 删除活动实例
-    public void delete(AppCompatActivity activity) {
+    public void delete(Activity activity) {
 
         list.remove(activity);
     }
@@ -100,7 +99,7 @@ public class ActivityManager {
     // 关闭所有活动，退出APP
     public void finishAllActivity() {
         for (int i = 0; i < list.size(); i++) {
-            AppCompatActivity activity = list.get(i);
+            Activity activity = list.get(i);
             if (activity!=null&&activity.isFinishing() == false) {
                 activity.finish();
             }
@@ -114,7 +113,7 @@ public class ActivityManager {
             return;
         }
         for (int i = 0; i < list.size(); i++) {
-            AppCompatActivity activity = list.get(i);
+            Activity activity = list.get(i);
             if (activity!=null&&activity.isFinishing() == false&&!activity.getClass().getName().equals(className)) {
                 activity.finish();
             }
