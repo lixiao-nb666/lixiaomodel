@@ -60,36 +60,36 @@ public class MyGlide {
     }
 
 
-    public void setRoundedBitMap( final ImageView imageView, int url) {
-        Glide.with(imageView.getContext()).load(url).asBitmap().dontAnimate().override(imageView.getLayoutParams().width,
+    public void setRoundedBitMap(final Context context, final ImageView imageView, int url) {
+        Glide.with(context).load(url).asBitmap().dontAnimate().override(imageView.getLayoutParams().width,
                 imageView.getLayoutParams().height).into(new SimpleTarget<Bitmap>() {
             @Override
             public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
                 RoundedBitmapDrawable circularBitmapDrawable;
-                circularBitmapDrawable = RoundedBitmapDrawableFactory.create(imageView.getContext().getResources(), resource);
+                circularBitmapDrawable = RoundedBitmapDrawableFactory.create(context.getResources(), resource);
                 circularBitmapDrawable.setCircular(true);
                 imageView.setBackgroundDrawable(circularBitmapDrawable);
             }
         });
     }
 
-    public void setRoundedBitMap(final ImageView imageView, String url) {
-        Glide.with(imageView.getContext()).load(url).asBitmap().dontAnimate().centerCrop().into(new BitmapImageViewTarget(imageView) {
+    public void setRoundedBitMap(final Context context, final ImageView imageView, String url) {
+        Glide.with(context).load(url).asBitmap().dontAnimate().centerCrop().into(new BitmapImageViewTarget(imageView) {
             @Override
             protected void setResource(Bitmap resource) {
                 RoundedBitmapDrawable circularBitmapDrawable;
-                circularBitmapDrawable = RoundedBitmapDrawableFactory.create(imageView.getContext().getResources(), resource);
+                circularBitmapDrawable = RoundedBitmapDrawableFactory.create(context.getResources(), resource);
                 circularBitmapDrawable.setCircular(true);
                 imageView.setImageDrawable(circularBitmapDrawable);
             }
         });
     }
 
-    public void setRoundedBitMap(final ImageView imageView, Bitmap bitmap){
+    public void setRoundedBitMap(Context context,final ImageView imageView, Bitmap bitmap){
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         bitmap.compress(Bitmap.CompressFormat.PNG, 100, baos);
         byte[] bytes=baos.toByteArray();
-        Glide.with(imageView.getContext()).load(bytes).asBitmap().dontAnimate().centerCrop().into(new BitmapImageViewTarget(imageView) {
+        Glide.with(context).load(bytes).asBitmap().dontAnimate().centerCrop().into(new BitmapImageViewTarget(imageView) {
             @Override
             protected void setResource(Bitmap resource) {
                 RoundedBitmapDrawable circularBitmapDrawable;
@@ -98,46 +98,46 @@ public class MyGlide {
                 imageView.setImageDrawable(circularBitmapDrawable);
             }
         });
-        Glide.with(imageView.getContext()).load(bytes).into(imageView);
+        Glide.with(context).load(bytes).into(imageView);
     }
 
-    public void setBitMap(final ImageView imageView, final int url) {
-        Glide.with(imageView.getContext()).load(url).into(imageView);
+    public void setBitMap(Context context,final ImageView imageView, final int url) {
+        Glide.with(context).load(url).into(imageView);
     }
 
 
-    public void setBitMap(final ImageView imageView, final String url) {
-        Glide.with(imageView.getContext()).load(url).into(imageView);
+    public void setBitMap(Context context,final ImageView imageView, final String url) {
+        Glide.with(context).load(url).into(imageView);
     }
 
-    public void setBitMap(final ImageView imageView, Bitmap bitmap) {
+    public void setBitMap(Context context,final ImageView imageView, Bitmap bitmap) {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         bitmap.compress(Bitmap.CompressFormat.PNG, 100, baos);
         byte[] bytes=baos.toByteArray();
-        Glide.with(imageView.getContext()).load(bytes).into(imageView);
+        Glide.with(context).load(bytes).into(imageView);
     }
 
-    public void setBitMapNoCache( final ImageView imageView, final String url) {
-        Glide.with(imageView.getContext()).load(url).diskCacheStrategy( DiskCacheStrategy.NONE ).skipMemoryCache(false). signature(new StringSignature(UUID.randomUUID().toString())).into(imageView);
+    public void setBitMapNoCache( Context context,final ImageView imageView, final String url) {
+        Glide.with(context).load(url).diskCacheStrategy( DiskCacheStrategy.NONE ).skipMemoryCache(false). signature(new StringSignature(UUID.randomUUID().toString())).into(imageView);
   }
 
-    public void setBitMapNoCache( final ImageView imageView, final int url) {
-        Glide.with(imageView.getContext()).load(url).diskCacheStrategy( DiskCacheStrategy.NONE ).skipMemoryCache(false). signature(new StringSignature(UUID.randomUUID().toString())).into(imageView);
+    public void setBitMapNoCache(Context context, final ImageView imageView, final int url) {
+        Glide.with(context).load(url).diskCacheStrategy( DiskCacheStrategy.NONE ).skipMemoryCache(false). signature(new StringSignature(UUID.randomUUID().toString())).into(imageView);
     }
 
-    public void setBitMapNoCache( final ImageView imageView, final Bitmap bitmap) {
+    public void setBitMapNoCache(Context context, final ImageView imageView, final Bitmap bitmap) {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         bitmap.compress(Bitmap.CompressFormat.PNG, 100, baos);
         byte[] bytes=baos.toByteArray();
-        Glide.with(imageView.getContext()).load(bytes).diskCacheStrategy( DiskCacheStrategy.NONE ).skipMemoryCache(false). signature(new StringSignature(UUID.randomUUID().toString())).into(imageView);
+        Glide.with(context).load(bytes).diskCacheStrategy( DiskCacheStrategy.NONE ).skipMemoryCache(false). signature(new StringSignature(UUID.randomUUID().toString())).into(imageView);
     }
 
-    public void setBitMapUsWatermark( final ImageView imageView, final String url, final int waterMarkRs) {
-        Glide.with(imageView.getContext()).load(url).asBitmap().into(new SimpleTarget<Bitmap>() {
+    public void setBitMapUsWatermark(final Context context, final ImageView imageView, final String url, final int waterMarkRs) {
+        Glide.with(context).load(url).asBitmap().into(new SimpleTarget<Bitmap>() {
             @Override
             public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
                 Bitmap bm = Bitmap.createScaledBitmap(resource, 150, 150, true);
-                Bitmap waterMark = ((BitmapDrawable)imageView.getContext().getResources().getDrawable(waterMarkRs)).getBitmap();
+                Bitmap waterMark = ((BitmapDrawable)context.getResources().getDrawable(waterMarkRs)).getBitmap();
                 Bitmap useBM = Watermark(bm, waterMark, 100);
                 imageView.setImageBitmap(useBM);
             }
@@ -176,24 +176,24 @@ public class MyGlide {
 
 
 
-    public void setCenterCropBitMap( final ImageView imageView, final String url) {
+    public void setCenterCropBitMap( Context context,final ImageView imageView, final String url) {
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        Glide.with(imageView.getContext()).load(url).transform(new CenterCrop(imageView.getContext()), new GlideRoundTransform(imageView.getContext(), 3)).into(imageView);
+        Glide.with(context).load(url).transform(new CenterCrop(context), new GlideRoundTransform(context, 3)).into(imageView);
     }
 
-    public void setCenterCropBitMap( final ImageView imageView, final int url) {
+    public void setCenterCropBitMap( Context context,final ImageView imageView, final int url) {
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        Glide.with(imageView.getContext()).load(url).transform(new CenterCrop(imageView.getContext()), new GlideRoundTransform(imageView.getContext(), 3)).into(imageView);
+        Glide.with(context).load(url).transform(new CenterCrop(context), new GlideRoundTransform(context, 3)).into(imageView);
     }
 
-    public void setCenterCropBitMap(final ImageView imageView, final String url, int errorIma) {
+    public void setCenterCropBitMap(Context context,final ImageView imageView, final String url, int errorIma) {
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        Glide.with(imageView.getContext()).load(url).transform(new CenterCrop(imageView.getContext()), new GlideRoundTransform(imageView.getContext(), 3)).error(errorIma).into(imageView);
+        Glide.with(context).load(url).transform(new CenterCrop(context), new GlideRoundTransform(context, 3)).error(errorIma).into(imageView);
     }
 
-    public void setCenterCropBitMap( final ImageView imageView, final int url, int errorIma) {
+    public void setCenterCropBitMap(Context context, final ImageView imageView, final int url, int errorIma) {
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        Glide.with(imageView.getContext()).load(url).transform(new CenterCrop(imageView.getContext()), new GlideRoundTransform(imageView.getContext(), 3)).error(errorIma).into(imageView);
+        Glide.with(context).load(url).transform(new CenterCrop(context), new GlideRoundTransform(context, 3)).error(errorIma).into(imageView);
     }
 
 
