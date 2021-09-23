@@ -79,6 +79,7 @@
     <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.lixiao-nb666:SensorService:1.0.2@aar" level="project" />
     <orderEntry type="module" module-name="lixiaomodel.developmenttool" />
   </component>
 </module>

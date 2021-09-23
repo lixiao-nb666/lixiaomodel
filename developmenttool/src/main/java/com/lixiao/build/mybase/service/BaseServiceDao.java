@@ -36,6 +36,16 @@ public abstract class BaseServiceDao {
         };
     }
 
+    private String packageStr;
+    public void setPackage(String packageStr){
+        this.packageStr=packageStr;
+    }
+
+    private String actionStr;
+    public void setActionStr(String actionStr){
+        this.actionStr=actionStr;
+    }
+
 
     public void startServiceIsBind() {
         try {

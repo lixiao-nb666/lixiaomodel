@@ -1,20 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-98:12
-INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-98:12
-INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-98:12
-INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-98:12
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-114:12
+INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-114:12
+INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-114:12
+INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-114:12
 MERGED from [:developmenttool] F:\CBR\lixiaomodel\developmenttool\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.lixiao-nb666:SensorService:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4662f7b7ea9182a83ff6a5b98fda39a5\jetified-SensorService-1.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\267ad157b1294f5331cdb333af271fcd\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9cd54f73ae879248b83fa8524fb53b1\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bb3b8314c8a81c9eb23d354b8962ee67\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7687a19d800821fa16dea0164a533178\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3fb51ccc2657523bf35df8bfda7b392e\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0d2d28943e2f944f0a4c3742ff9d3f17\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\26ed4486600648d22cab801e6538f602\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0bcecf429fc0cf5205a2522f21bda7a7\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1ca7df787015b7cb5aceaf5dac516f8f\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0ee36926f1eda7ddbd76d3b1f2817724\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\89972b29f3b90922f2bccd966775594b\fragment-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\32136f132c6534c67d203e3a7820ab92\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\08ab70e52febce80bf40e2100c2c994f\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8b66f67c29fc591d5f0fe74eb24d563a\transition-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f001ed9cda5a48adf4837dd780ce583f\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5b6d0337bfe3ecc8a3f2ccb11ef333a7\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ccd44a1c6037088ddaa2e65bd234864d\core-1.3.0\AndroidManifest.xml:17:1-26:12
@@ -29,27 +34,29 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Administ
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4be4fb225c51a3b4180d2c3909e9225e\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f7cad200ff2fc362444f44fa09bcf3b\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b213d99359b8d5079c5f823f29fbba4d\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9baac000ed53afd56a962f616dd96eff\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a50e4d4a165dfe346a38536610fa2d62\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e2bbaac0ecc1babba1efdd7a34e441af\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\faf6abc71f1d3a1dace97aaa8ca18a85\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\69070ca406565e06e73d7f6415bbecb6\jetified-oss-android-sdk-2.9.5\AndroidManifest.xml:2:1-22:12
-MERGED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f60f58ecc66ab75dcc016608f7cc3a10\jetified-okdownload-1.0.6\AndroidManifest.xml:2:1-15:12
-MERGED from [com.liulishuo.okdownload:sqlite:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cf2d0ad5f2d82acc7e78de1a4a1e4417\jetified-sqlite-1.0.6\AndroidManifest.xml:2:1-7:12
-MERGED from [com.liulishuo.okdownload:okhttp:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\68c1045a8a212de9868419a4010106ac\jetified-okhttp-1.0.6\AndroidManifest.xml:2:1-7:12
-INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-98:12
-INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-98:12
-INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-98:12
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\49431508315a2163e8201c7ee731d2a0\jetified-oss-android-sdk-2.9.9\AndroidManifest.xml:2:1-14:12
+MERGED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fd09c52e57b2d9424ee7fd979380c8ef\jetified-okdownload-1.0.6\AndroidManifest.xml:2:1-15:12
+MERGED from [com.liulishuo.okdownload:sqlite:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\700a6e44f6e9b13883f31ec5be74a25b\jetified-sqlite-1.0.6\AndroidManifest.xml:2:1-7:12
+MERGED from [com.liulishuo.okdownload:okhttp:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2d34f37bf3cd608ccbb2c572c858b76f\jetified-okhttp-1.0.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d3b803c010732ee4937de86676bca085\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-114:12
+INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-114:12
+INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-114:12
 	package
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:2:5-37
 		INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml
 		INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-98:12
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-114:12
 		INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-98:12
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:1-114:12
 		INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:1:11-69
@@ -81,14 +88,10 @@ ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:11:5-80
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:11:22-77
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:12:5-76
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\69070ca406565e06e73d7f6415bbecb6\jetified-oss-android-sdk-2.9.5\AndroidManifest.xml:13:5-76
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\69070ca406565e06e73d7f6415bbecb6\jetified-oss-android-sdk-2.9.5\AndroidManifest.xml:13:5-76
 	android:name
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:12:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:13:5-79
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\69070ca406565e06e73d7f6415bbecb6\jetified-oss-android-sdk-2.9.5\AndroidManifest.xml:12:5-79
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\69070ca406565e06e73d7f6415bbecb6\jetified-oss-android-sdk-2.9.5\AndroidManifest.xml:12:5-79
 	android:name
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:13:22-76
 uses-permission#android.permission.ACCESS_MOCK_LOCATION
@@ -121,8 +124,6 @@ ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:23:5-79
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:23:22-76
 uses-permission#android.permission.CHANGE_WIFI_STATE
 ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:25:5-76
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\69070ca406565e06e73d7f6415bbecb6\jetified-oss-android-sdk-2.9.5\AndroidManifest.xml:15:5-76
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\69070ca406565e06e73d7f6415bbecb6\jetified-oss-android-sdk-2.9.5\AndroidManifest.xml:15:5-76
 	android:name
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:25:22-73
 uses-permission#android.permission.CHANGE_CONFIGURATION
@@ -171,8 +172,8 @@ ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:40:5-81
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:40:22-78
 uses-permission#android.permission.INTERNET
 ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:41:5-67
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\69070ca406565e06e73d7f6415bbecb6\jetified-oss-android-sdk-2.9.5\AndroidManifest.xml:11:5-67
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\69070ca406565e06e73d7f6415bbecb6\jetified-oss-android-sdk-2.9.5\AndroidManifest.xml:11:5-67
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\49431508315a2163e8201c7ee731d2a0\jetified-oss-android-sdk-2.9.9\AndroidManifest.xml:11:5-67
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\49431508315a2163e8201c7ee731d2a0\jetified-oss-android-sdk-2.9.9\AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:41:22-64
 uses-permission#android.permission.INSTALL_PACKAGES
@@ -189,8 +190,8 @@ ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:46:5-80
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:46:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:47:5-81
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\69070ca406565e06e73d7f6415bbecb6\jetified-oss-android-sdk-2.9.5\AndroidManifest.xml:14:5-81
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\69070ca406565e06e73d7f6415bbecb6\jetified-oss-android-sdk-2.9.5\AndroidManifest.xml:14:5-81
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\49431508315a2163e8201c7ee731d2a0\jetified-oss-android-sdk-2.9.9\AndroidManifest.xml:12:5-81
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\49431508315a2163e8201c7ee731d2a0\jetified-oss-android-sdk-2.9.9\AndroidManifest.xml:12:5-81
 	android:name
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:47:22-78
 uses-permission#android.permission.WAKE_LOCK
@@ -225,14 +226,26 @@ uses-permission#android.permission.VIBRATE
 ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:58:5-66
 MERGED from [:developmenttool] F:\CBR\lixiaomodel\developmenttool\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-66
 MERGED from [:developmenttool] F:\CBR\lixiaomodel\developmenttool\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-66
+MERGED from [com.github.lixiao-nb666:SensorService:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4662f7b7ea9182a83ff6a5b98fda39a5\jetified-SensorService-1.0.2\AndroidManifest.xml:9:5-66
+MERGED from [com.github.lixiao-nb666:SensorService:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4662f7b7ea9182a83ff6a5b98fda39a5\jetified-SensorService-1.0.2\AndroidManifest.xml:9:5-66
 	android:name
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:58:22-63
 uses-permission#android.hardware.sensor.accelerometer
 ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:61:5-76
 	android:name
 		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:61:22-74
+permission#com.newbee.lixiaomodel.deviceautostart
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:65:5-68:44
+	android:label
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:67:9-43
+	android:protectionLevel
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:68:9-41
+	android:name
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:66:9-62
 application
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:67:5-97:19
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:71:5-113:19
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\267ad157b1294f5331cdb333af271fcd\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\267ad157b1294f5331cdb333af271fcd\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0ee36926f1eda7ddbd76d3b1f2817724\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0ee36926f1eda7ddbd76d3b1f2817724\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.core:core:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ccd44a1c6037088ddaa2e65bd234864d\core-1.3.0\AndroidManifest.xml:24:5-89
@@ -243,94 +256,116 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\
 MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\faf6abc71f1d3a1dace97aaa8ca18a85\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\faf6abc71f1d3a1dace97aaa8ca18a85\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\69070ca406565e06e73d7f6415bbecb6\jetified-oss-android-sdk-2.9.5\AndroidManifest.xml:17:5-20:19
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\69070ca406565e06e73d7f6415bbecb6\jetified-oss-android-sdk-2.9.5\AndroidManifest.xml:17:5-20:19
-MERGED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f60f58ecc66ab75dcc016608f7cc3a10\jetified-okdownload-1.0.6\AndroidManifest.xml:8:5-13:19
-MERGED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f60f58ecc66ab75dcc016608f7cc3a10\jetified-okdownload-1.0.6\AndroidManifest.xml:8:5-13:19
+MERGED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fd09c52e57b2d9424ee7fd979380c8ef\jetified-okdownload-1.0.6\AndroidManifest.xml:8:5-13:19
+MERGED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fd09c52e57b2d9424ee7fd979380c8ef\jetified-okdownload-1.0.6\AndroidManifest.xml:8:5-13:19
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ccd44a1c6037088ddaa2e65bd234864d\core-1.3.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:72:9-35
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:76:9-35
 	android:label
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:70:9-41
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:74:9-41
 	android:roundIcon
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:71:9-54
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:75:9-54
 	android:icon
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:69:9-43
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:73:9-43
 	android:allowBackup
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:68:9-35
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:72:9-35
 	android:theme
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:75:9-78
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:79:9-78
 	android:usesCleartextTraffic
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:73:9-44
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:77:9-44
 	android:name
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:74:9-38
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:78:9-38
 uses-library#org.apache.http.legacy
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:76:9-78:40
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:80:9-82:40
 	android:required
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:78:13-37
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:82:13-37
 	android:name
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:77:13-50
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:81:13-50
 activity#com.newbee.lixiaomodel.DemoActivity
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:81:9-87:20
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:85:9-91:20
 	android:name
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:82:13-41
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:86:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:83:13-86:29
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:87:13-90:29
 action#android.intent.action.MAIN
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:84:17-69
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:88:17-69
 	android:name
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:84:25-66
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:88:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:85:17-77
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:89:17-77
 	android:name
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:85:27-74
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:89:27-74
+activity#com.newbee.lixiaomodel.TestAidlActivity
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:92:9-53
+	android:name
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:92:19-51
 activity#com.newbee.lixiaomodel.LauncherActivity
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:88:9-53
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:93:9-53
 	android:name
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:88:19-51
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:93:19-51
 activity#com.newbee.lixiaomodel.UserPrivateAgreemeetActivity
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:89:9-65
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:94:9-65
 	android:name
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:89:19-63
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:94:19-63
 activity#com.newbee.lixiaomodel.TestDownActivity
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:90:9-53
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:95:9-53
 	android:name
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:90:19-51
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:95:19-51
 activity#com.newbee.lixiaomodel.TestUploadActivity
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:91:9-55
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:96:9-55
 	android:name
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:91:19-53
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:96:19-53
 activity#com.newbee.lixiaomodel.TestMyRadioGroupActivity
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:92:9-61
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:97:9-61
 	android:name
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:92:19-59
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:97:19-59
 service#com.lixiao.down.service.XiaoGeDownLoaderService
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:95:9-82
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:100:9-82
 	android:name
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:95:18-80
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:100:18-80
 service#com.lixiao.oss.service.OssService
-ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:96:9-68
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:101:9-68
 	android:name
-		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:96:18-66
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:101:18-66
+provider#com.newbee.lixiaomodel.TestContentProvider
+ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:103:9-109:20
+	android:enabled
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:106:13-35
+	android:authorities
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:105:13-73
+	android:exported
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:107:13-36
+	android:permission
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:108:13-72
+	android:name
+		ADDED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml:104:13-48
 uses-sdk
 INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml
 INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml
 MERGED from [:developmenttool] F:\CBR\lixiaomodel\developmenttool\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:developmenttool] F:\CBR\lixiaomodel\developmenttool\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lixiao-nb666:SensorService:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4662f7b7ea9182a83ff6a5b98fda39a5\jetified-SensorService-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.lixiao-nb666:SensorService:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4662f7b7ea9182a83ff6a5b98fda39a5\jetified-SensorService-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\267ad157b1294f5331cdb333af271fcd\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\267ad157b1294f5331cdb333af271fcd\material-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9cd54f73ae879248b83fa8524fb53b1\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9cd54f73ae879248b83fa8524fb53b1\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bb3b8314c8a81c9eb23d354b8962ee67\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bb3b8314c8a81c9eb23d354b8962ee67\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7687a19d800821fa16dea0164a533178\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7687a19d800821fa16dea0164a533178\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3fb51ccc2657523bf35df8bfda7b392e\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3fb51ccc2657523bf35df8bfda7b392e\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0d2d28943e2f944f0a4c3742ff9d3f17\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0d2d28943e2f944f0a4c3742ff9d3f17\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\26ed4486600648d22cab801e6538f602\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\26ed4486600648d22cab801e6538f602\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0bcecf429fc0cf5205a2522f21bda7a7\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0bcecf429fc0cf5205a2522f21bda7a7\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1ca7df787015b7cb5aceaf5dac516f8f\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1ca7df787015b7cb5aceaf5dac516f8f\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0ee36926f1eda7ddbd76d3b1f2817724\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0ee36926f1eda7ddbd76d3b1f2817724\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\89972b29f3b90922f2bccd966775594b\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
@@ -339,6 +374,8 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\32136f132c6534c67d203e3a7820ab92\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\08ab70e52febce80bf40e2100c2c994f\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\08ab70e52febce80bf40e2100c2c994f\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8b66f67c29fc591d5f0fe74eb24d563a\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8b66f67c29fc591d5f0fe74eb24d563a\transition-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f001ed9cda5a48adf4837dd780ce583f\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f001ed9cda5a48adf4837dd780ce583f\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5b6d0337bfe3ecc8a3f2ccb11ef333a7\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -367,20 +404,24 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator\.gradl
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f7cad200ff2fc362444f44fa09bcf3b\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b213d99359b8d5079c5f823f29fbba4d\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b213d99359b8d5079c5f823f29fbba4d\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9baac000ed53afd56a962f616dd96eff\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9baac000ed53afd56a962f616dd96eff\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a50e4d4a165dfe346a38536610fa2d62\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a50e4d4a165dfe346a38536610fa2d62\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e2bbaac0ecc1babba1efdd7a34e441af\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e2bbaac0ecc1babba1efdd7a34e441af\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\faf6abc71f1d3a1dace97aaa8ca18a85\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\faf6abc71f1d3a1dace97aaa8ca18a85\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\69070ca406565e06e73d7f6415bbecb6\jetified-oss-android-sdk-2.9.5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\69070ca406565e06e73d7f6415bbecb6\jetified-oss-android-sdk-2.9.5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f60f58ecc66ab75dcc016608f7cc3a10\jetified-okdownload-1.0.6\AndroidManifest.xml:6:5-44
-MERGED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f60f58ecc66ab75dcc016608f7cc3a10\jetified-okdownload-1.0.6\AndroidManifest.xml:6:5-44
-MERGED from [com.liulishuo.okdownload:sqlite:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cf2d0ad5f2d82acc7e78de1a4a1e4417\jetified-sqlite-1.0.6\AndroidManifest.xml:5:5-44
-MERGED from [com.liulishuo.okdownload:sqlite:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cf2d0ad5f2d82acc7e78de1a4a1e4417\jetified-sqlite-1.0.6\AndroidManifest.xml:5:5-44
-MERGED from [com.liulishuo.okdownload:okhttp:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\68c1045a8a212de9868419a4010106ac\jetified-okhttp-1.0.6\AndroidManifest.xml:5:5-44
-MERGED from [com.liulishuo.okdownload:okhttp:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\68c1045a8a212de9868419a4010106ac\jetified-okhttp-1.0.6\AndroidManifest.xml:5:5-44
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\49431508315a2163e8201c7ee731d2a0\jetified-oss-android-sdk-2.9.9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\49431508315a2163e8201c7ee731d2a0\jetified-oss-android-sdk-2.9.9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fd09c52e57b2d9424ee7fd979380c8ef\jetified-okdownload-1.0.6\AndroidManifest.xml:6:5-44
+MERGED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fd09c52e57b2d9424ee7fd979380c8ef\jetified-okdownload-1.0.6\AndroidManifest.xml:6:5-44
+MERGED from [com.liulishuo.okdownload:sqlite:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\700a6e44f6e9b13883f31ec5be74a25b\jetified-sqlite-1.0.6\AndroidManifest.xml:5:5-44
+MERGED from [com.liulishuo.okdownload:sqlite:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\700a6e44f6e9b13883f31ec5be74a25b\jetified-sqlite-1.0.6\AndroidManifest.xml:5:5-44
+MERGED from [com.liulishuo.okdownload:okhttp:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2d34f37bf3cd608ccbb2c572c858b76f\jetified-okhttp-1.0.6\AndroidManifest.xml:5:5-44
+MERGED from [com.liulishuo.okdownload:okhttp:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2d34f37bf3cd608ccbb2c572c858b76f\jetified-okhttp-1.0.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d3b803c010732ee4937de86676bca085\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d3b803c010732ee4937de86676bca085\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml
 INJECTED from F:\CBR\lixiaomodel\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -402,10 +443,10 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7345691785cf743134b0c2640d6e49ca\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
 provider#com.liulishuo.okdownload.OkDownloadProvider
-ADDED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f60f58ecc66ab75dcc016608f7cc3a10\jetified-okdownload-1.0.6\AndroidManifest.xml:9:9-12:40
+ADDED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fd09c52e57b2d9424ee7fd979380c8ef\jetified-okdownload-1.0.6\AndroidManifest.xml:9:9-12:40
 	android:authorities
-		ADDED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f60f58ecc66ab75dcc016608f7cc3a10\jetified-okdownload-1.0.6\AndroidManifest.xml:11:13-76
+		ADDED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fd09c52e57b2d9424ee7fd979380c8ef\jetified-okdownload-1.0.6\AndroidManifest.xml:11:13-76
 	android:exported
-		ADDED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f60f58ecc66ab75dcc016608f7cc3a10\jetified-okdownload-1.0.6\AndroidManifest.xml:12:13-37
+		ADDED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fd09c52e57b2d9424ee7fd979380c8ef\jetified-okdownload-1.0.6\AndroidManifest.xml:12:13-37
 	android:name
-		ADDED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f60f58ecc66ab75dcc016608f7cc3a10\jetified-okdownload-1.0.6\AndroidManifest.xml:10:13-71
+		ADDED from [com.liulishuo.okdownload:okdownload:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fd09c52e57b2d9424ee7fd979380c8ef\jetified-okdownload-1.0.6\AndroidManifest.xml:10:13-71

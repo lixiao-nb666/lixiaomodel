@@ -104,7 +104,6 @@ public abstract class BaseCompatActivity extends AppCompatActivity {
         }
         if (context == null)
             context = this;
-
         setContentView(getViewLayoutRsId());
         initView();
         initData();

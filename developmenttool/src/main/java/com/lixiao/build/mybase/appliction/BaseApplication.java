@@ -3,6 +3,8 @@ package com.lixiao.build.mybase.appliction;
 import android.app.Application;
 import android.content.Context;
 
+import com.lixiao.build.mybase.sqlite.event.SqlListenSubject;
+
 
 public abstract class BaseApplication extends Application {
 
@@ -11,6 +13,7 @@ public abstract class BaseApplication extends Application {
     protected abstract void init();
     protected abstract void needClear(String str);
     protected abstract void close();
+
 
     private static BaseApplication application;
 

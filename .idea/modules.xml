@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/lixiaomodel.iml" filepath="$PROJECT_DIR$/lixiaomodel.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/lixiaomodel.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/lixiaomodel.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/developmenttool/lixiaomodel.developmenttool.iml" filepath="$PROJECT_DIR$/.idea/modules/developmenttool/lixiaomodel.developmenttool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mylibrary/lixiaomodel.mylibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/mylibrary/lixiaomodel.mylibrary.iml" />
     </modules>
   </component>
 </project>

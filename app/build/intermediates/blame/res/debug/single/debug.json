@@ -64,6 +64,10 @@
         "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test_aidl.xml.flat",
+        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\layout\\activity_test_aidl.xml"
+    },
+    {
         "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
@@ -74,6 +78,10 @@
     {
         "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test.xml.flat",
+        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\layout\\activity_test.xml"
     },
     {
         "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",

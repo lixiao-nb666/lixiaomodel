@@ -49,7 +49,6 @@ import com.lixiao.build.mybase.appliction.BaseApplication;
             //------------------自己改
             float needRad=getRotation(rad);
             sensorListen.getNowRotation(needRad);
-//            LG.i(tag,"---------kankansensor:"+uiRot+"------------"+needRad);
 //            gsView.setRotation();
 //		      gsView.setRotation(rad);
         }

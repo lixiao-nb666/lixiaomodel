@@ -1,3 +1,4 @@
 rootProject.name='lixiaomodel'
 include ':app'
 include ':developmenttool'
+include ':mylibrary'

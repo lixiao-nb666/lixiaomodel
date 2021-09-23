@@ -9,6 +9,24 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aefa18b7401ccee7a388f533d831710a/jetified-sqlite-1.0.6/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aefa18b7401ccee7a388f533d831710a/jetified-sqlite-1.0.6/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aefa18b7401ccee7a388f533d831710a/jetified-sqlite-1.0.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/631a3b190ab505fb19941754c99d2f90/jetified-sqlite-1.0.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/631a3b190ab505fb19941754c99d2f90/jetified-sqlite-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/631a3b190ab505fb19941754c99d2f90/jetified-sqlite-1.0.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dd8ef64d7967f8ee725a54773c9bf1de/jetified-sqlite-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dd8ef64d7967f8ee725a54773c9bf1de/jetified-sqlite-1.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dd8ef64d7967f8ee725a54773c9bf1de/jetified-sqlite-1.0.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9e4c199091f2026d5e116616b5f9dac9/jetified-sqlite-1.0.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9e4c199091f2026d5e116616b5f9dac9/jetified-sqlite-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9e4c199091f2026d5e116616b5f9dac9/jetified-sqlite-1.0.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc4f21f0168d3bd9159290a006d5a4cc/jetified-sqlite-1.0.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc4f21f0168d3bd9159290a006d5a4cc/jetified-sqlite-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc4f21f0168d3bd9159290a006d5a4cc/jetified-sqlite-1.0.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1ae003221162d043ea02e0fc26278f9/jetified-sqlite-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1ae003221162d043ea02e0fc26278f9/jetified-sqlite-1.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1ae003221162d043ea02e0fc26278f9/jetified-sqlite-1.0.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/700a6e44f6e9b13883f31ec5be74a25b/jetified-sqlite-1.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/700a6e44f6e9b13883f31ec5be74a25b/jetified-sqlite-1.0.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/700a6e44f6e9b13883f31ec5be74a25b/jetified-sqlite-1.0.6/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liulishuo.okdownload/sqlite/1.0.6/a54c1eeff18ae37039ba9af0249842724c978181/sqlite-1.0.6-javadoc.jar!/" />

@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 import androidx.activity.ComponentActivity;
 
-import com.lixiao.build.glide.MyGlide;
+
 
 /**
  * @author lixiaogege!
@@ -26,23 +26,23 @@ public class OpenGlTextActivity1 extends ComponentActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_opengl1);
         initView();
-        MyGlide.GetBitmapImp getBitmapImp=new MyGlide.GetBitmapImp() {
-            @Override
-            public void getBitmap(Bitmap bitmap) {
-                int w=bitmap.getWidth();
-                int h=bitmap.getHeight();
-                int needW=w/10*4;
-                int addW=w/10*3;
-
-               Bitmap b1= Bitmap.createBitmap(bitmap, 0, 0, needW, h);
-                iv1.setImageBitmap(b1);
-                Bitmap b2= Bitmap.createBitmap(bitmap, addW, 0, needW, h);
-                iv2.setImageBitmap(b2);
-                Bitmap b3= Bitmap.createBitmap(bitmap, addW*2, 0, needW, h);
-                iv3.setImageBitmap(b3);
-            }
-        };
-        MyGlide.getInstance().getBitmap(this,R.drawable.main,getBitmapImp);
+//        MyGlide.GetBitmapImp getBitmapImp=new MyGlide.GetBitmapImp() {
+//            @Override
+//            public void getBitmap(Bitmap bitmap) {
+//                int w=bitmap.getWidth();
+//                int h=bitmap.getHeight();
+//                int needW=w/10*4;
+//                int addW=w/10*3;
+//
+//               Bitmap b1= Bitmap.createBitmap(bitmap, 0, 0, needW, h);
+//                iv1.setImageBitmap(b1);
+//                Bitmap b2= Bitmap.createBitmap(bitmap, addW, 0, needW, h);
+//                iv2.setImageBitmap(b2);
+//                Bitmap b3= Bitmap.createBitmap(bitmap, addW*2, 0, needW, h);
+//                iv3.setImageBitmap(b3);
+//            }
+//        };
+//        MyGlide.getInstance().getBitmap(this,R.drawable.main,getBitmapImp);
 
     }
 

@@ -3,9 +3,7 @@ package com.lixiao.build.mybase.sqlite;
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.text.TextUtils;
 
-import com.lixiao.build.glide.MyGlide;
 import com.lixiao.build.gson.MyGson;
 import com.lixiao.build.mybase.LG;
 import com.lixiao.build.mybase.bean.MyClassInfoBean;
@@ -81,6 +79,21 @@ public class BaseSqlServer<T> {
         spl = new BaseSqlite(tablename, createtableStr, v);
     }
 
+
+
+    public SQLiteDatabase getDB(){
+        try {
+            return spl.getReadableDatabase();
+        }catch (Exception e){
+            return null;
+        }
+
+    }
+
+    public String getTablename(){
+        return tablename;
+    }
+
     public void setNeedSendEvent(boolean needSendEvent) {
         this.needSendEvent = needSendEvent;
     }
@@ -94,8 +107,9 @@ public class BaseSqlServer<T> {
             }
             return null;
         }
-        sqLiteDatabase = spl.getReadableDatabase();
+
         try {
+            sqLiteDatabase = spl.getReadableDatabase();
             ContentValues contentValues = new ContentValues();
             for (String getStr : classInfoBean.getMethodMap.keySet()) {
                 if (!BaseSqliteConfig.def_id_str.equals(getStr)) {
@@ -346,7 +360,6 @@ public class BaseSqlServer<T> {
                 sb.append(str+" LIKE ? ");
                 i++;
             }
-
             sqLiteDatabase = spl.getReadableDatabase();
             cursor = sqLiteDatabase.query(tablename, classInfoBean.fNameS, sb.toString(),
                     fuzzyS, null, null, null);
@@ -404,9 +417,7 @@ public class BaseSqlServer<T> {
         Cursor cursor = null;
         List<T> findList=null;
         try {
-
             StringBuilder sb=new StringBuilder();
-
             int i=0;
             for(String key:keyS){
                 if(i>0){
@@ -415,7 +426,6 @@ public class BaseSqlServer<T> {
                 sb.append(key+"=?");
                 i++;
             }
-
             for(String fuzzyKey:fuzzyKeyS){
                 if(i>0){
                     sb.append(" and ");
@@ -438,7 +448,6 @@ public class BaseSqlServer<T> {
             cursor = sqLiteDatabase.query(tablename, classInfoBean.fNameS, sb.toString(),
                     queAndFuzzyS, null, null, null);
             findList = useCursorGetList(cursor);
-
         } catch (Exception e) {
             SqlListenSubscriptionSubject.getInstence().err("fuzzyQue: err-"+e.toString());
         } finally {
@@ -455,9 +464,7 @@ public class BaseSqlServer<T> {
         Cursor cursor = null;
         List<T> findList=null;
         try {
-
             StringBuilder sb=new StringBuilder();
-
             int i=0;
             for(String key:keyS){
                 if(i>0){
@@ -466,7 +473,6 @@ public class BaseSqlServer<T> {
                 sb.append(key+"=?");
                 i++;
             }
-
             for(String fuzzyKey:fuzzyKeyS){
                 if(i>0){
                     sb.append(" and ");
@@ -512,7 +518,6 @@ public class BaseSqlServer<T> {
             for(String ss:classInfoBean.fNameS){
                 LG.i("kankanzhelishenmeyichad","fkjsdlfkjsaldkfjlasfdj:666666"+ss);
             }
-
             findList= useCursorGetList(cursor);
         } catch (Exception e) {
             SqlListenSubscriptionSubject.getInstence().err("queAll: err-"+e.toString());
@@ -536,7 +541,6 @@ public class BaseSqlServer<T> {
             for(String ss:classInfoBean.fNameS){
                 LG.i("kankanzhelishenmeyichad","fkjsdlfkjsaldkfjlasfdj:666666"+ss);
             }
-
             findList= useCursorGetList(cursor);
         } catch (Exception e) {
             SqlListenSubscriptionSubject.getInstence().err("queAll: err-"+e.toString());

@@ -73,6 +73,11 @@
     <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
     <uses-permission android:name="android.permission.GET_TASKS" />
 
+    <permission
+        android:name="com.newbee.lixiaomodel.deviceautostart"
+        android:label="provider pomission"
+        android:protectionLevel="normal" />
+
     <application
         android:name="com.newbee.lixiaomodel.MyApplication"
         android:allowBackup="true"
@@ -96,6 +101,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.newbee.lixiaomodel.TestAidlActivity" />
         <activity android:name="com.newbee.lixiaomodel.LauncherActivity" />
         <activity android:name="com.newbee.lixiaomodel.UserPrivateAgreemeetActivity" />
         <activity android:name="com.newbee.lixiaomodel.TestDownActivity" />
@@ -106,6 +112,13 @@
         <service android:name="com.lixiao.down.service.XiaoGeDownLoaderService" />
         <service android:name="com.lixiao.oss.service.OssService" />
 
+        <provider
+            android:name="com.newbee.lixiaomodel.TestContentProvider"
+            android:authorities="com.newbee.lixiaomodel.deviceautostart"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="com.newbee.lixiaomodel.deviceautostart" >
+        </provider>
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
             android:authorities="com.newbee.lixiaomodel.lifecycle-process"

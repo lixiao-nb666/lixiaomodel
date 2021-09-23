@@ -4,6 +4,25 @@
             "outputFile": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\9baac000ed53afd56a962f616dd96eff\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "50",
+                        "startColumns": "4",
+                        "startOffsets": "3524",
+                        "endLines": "52",
+                        "endColumns": "12",
+                        "endOffsets": "3669"
+                    }
+                },
+                {
                     "source": "F:\\CBR\\lixiaomodel\\developmenttool\\build\\intermediates\\packaged_res\\debug\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,12",
@@ -14,12 +33,12 @@
                         "endOffsets": "662,1210"
                     },
                     "to": {
-                        "startLines": "50,60",
+                        "startLines": "53,63",
                         "startColumns": "4,4",
-                        "startOffsets": "3524,4136",
-                        "endLines": "59,67",
+                        "startOffsets": "3674,4286",
+                        "endLines": "62,70",
                         "endColumns": "12,12",
-                        "endOffsets": "4131,4679"
+                        "endOffsets": "4281,4829"
                     }
                 },
                 {
@@ -31,6 +50,25 @@
                         "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
                         "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
                         "endOffsets": "185,320,395,482,1366,2262,2381,2508,2730,2954,3069,3176,3289,3519"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\267ad157b1294f5331cdb333af271fcd\\material-1.2.1\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,320",
+                        "endLines": "5,9",
+                        "endColumns": "10,10",
+                        "endOffsets": "315,588"
+                    },
+                    "to": {
+                        "startLines": "71,75",
+                        "startColumns": "4,4",
+                        "startOffsets": "4834,5099",
+                        "endLines": "74,78",
+                        "endColumns": "10,10",
+                        "endOffsets": "5094,5367"
                     }
                 }
             ]

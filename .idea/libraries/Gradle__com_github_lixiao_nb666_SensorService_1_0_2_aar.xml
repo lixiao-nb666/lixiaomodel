@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.lixiao-nb666:SensorService:1.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4662f7b7ea9182a83ff6a5b98fda39a5/jetified-SensorService-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4662f7b7ea9182a83ff6a5b98fda39a5/jetified-SensorService-1.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4662f7b7ea9182a83ff6a5b98fda39a5/jetified-SensorService-1.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.lixiao-nb666/SensorService/1.0.2/cfc3934f9cba7abee9ebfd712cdc802668fb6d12/SensorService-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

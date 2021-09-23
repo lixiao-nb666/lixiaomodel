@@ -17,7 +17,6 @@ public abstract class BaseService extends Service {
     public abstract void close();
 
 
-
     @Override
     public IBinder onBind(Intent intent) {
         return baseBinder;

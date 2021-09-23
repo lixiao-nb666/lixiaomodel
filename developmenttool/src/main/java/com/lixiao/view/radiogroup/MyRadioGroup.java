@@ -5,10 +5,6 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-
-import com.lixiao.build.glide.MyGlide;
-import com.lixiao.build.mybase.appliction.BaseApplication;
-
 import java.util.List;
 
 /**
