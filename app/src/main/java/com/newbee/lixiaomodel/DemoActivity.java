@@ -16,11 +16,29 @@ import java.util.List;
 public class DemoActivity extends BaseWelcomeActivity {
 
 
+    @Override
+    public int getWelcomeLayoutId() {
+        return R.layout.activity_welcemo;
+    }
+
+    @Override
+    public void initWelcomeView() {
+
+    }
+
+    @Override
+    public void initWelcomeData() {
+
+    }
+
+    @Override
+    public void initWelcomeControl() {
+
+    }
 
     @Override
     public WelcomeInfoBean getWelcomeInfoBean() {
         WelcomeInfoBean welcomeInfoBean=new WelcomeInfoBean();
-        welcomeInfoBean.setShowTime(10000);
 //        welcomeInfoBean.setBackGroundRsId(R.color.red);
 //        welcomeInfoBean.setIconRsId(R.drawable.lixiao);
         List<String> permissions = new ArrayList<>();
@@ -38,13 +56,18 @@ public class DemoActivity extends BaseWelcomeActivity {
     }
 
     @Override
-    public void showOverNeedDo() {
-        TestSql.getInstance().que11();
-        toActivity(TestMyRadioGroupActivity.class);
+    public void userNoPermission() {
+
     }
 
     @Override
-    public void toUserPrivateAgreemeetActivity() {
-        toActivity(TestUpdateVersionActivity.class);
+    public void userGetAllPermission() {
+        TestSql.getInstance().add();;
+        TestSql.getInstance().que11();
+//        toActivity(TestAidlActivity.class);
+        showToast("获得所有权限成功");
+
     }
+
+
 }

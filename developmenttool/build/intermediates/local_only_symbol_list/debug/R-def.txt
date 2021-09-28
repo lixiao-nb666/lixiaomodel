@@ -196,7 +196,6 @@ id item_footer
 id item_title
 id iv_app_icon
 id iv_back
-id iv_welcome
 id launch_product_query
 id ll_app
 id ll_bg
@@ -205,7 +204,6 @@ id preview_view
 id quit
 id restart_preview
 id return_scan_result
-id rl_bg
 id rl_system_apps
 id search_book_contents_failed
 id search_book_contents_succeeded
@@ -216,14 +214,12 @@ id tv_private
 id tv_show_update_info
 id tv_title
 id tv_update_version_name
-id tv_user_apreements
 id tv_user_private_body
 id viewfinder_view
 layout activity_qrcode_capture_layout
 layout activity_user_private
 layout activity_version_update
 layout adapter_apps_layout
-layout base_activity_welcome
 layout item_qrcode_footer
 layout item_qrcode_title
 layout spj_system_apps_layout

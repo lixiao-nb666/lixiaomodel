@@ -1,6 +1,7 @@
 package com.lixiao.build.mybase.activity.welcome.bean;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -10,11 +11,12 @@ import java.util.List;
  */
 public class WelcomeInfoBean implements Serializable {
     public  List<String> permissionList;
-    public long showTime;
-    public  int backGroundRsId;
-    public int iconRsId;
+
 
     public List<String> getPermissionList() {
+        if(null==permissionList){
+            permissionList=new ArrayList<>();
+        }
         return permissionList;
     }
 
@@ -22,37 +24,10 @@ public class WelcomeInfoBean implements Serializable {
         this.permissionList = permissionList;
     }
 
-    public long getShowTime() {
-        return showTime;
-    }
-
-    public void setShowTime(long showTime) {
-        this.showTime = showTime;
-    }
-
-    public int getBackGroundRsId() {
-        return backGroundRsId;
-    }
-
-    public void setBackGroundRsId(int backGroundRsId) {
-        this.backGroundRsId = backGroundRsId;
-    }
-
-    public int getIconRsId() {
-        return iconRsId;
-    }
-
-    public void setIconRsId(int iconRsId) {
-        this.iconRsId = iconRsId;
-    }
-
     @Override
     public String toString() {
         return "WelcomeInfoBean{" +
                 "permissionList=" + permissionList +
-                ", showTime=" + showTime +
-                ", backGroundRsId=" + backGroundRsId +
-                ", iconRsId=" + iconRsId +
                 '}';
     }
 }

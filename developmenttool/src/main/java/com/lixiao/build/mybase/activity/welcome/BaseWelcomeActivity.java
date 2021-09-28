@@ -17,6 +17,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ActivityCompat;
 import com.lixiao.build.mybase.activity.BaseCompatActivity;
 import com.lixiao.build.mybase.activity.welcome.bean.WelcomeInfoBean;
+import com.lixiao.build.mybase.activity.welcome.dialog.WelcomeDialog;
 import com.lixiao.build.mybase.appliction.MyApplicationFile;
 import com.lixiao.developmenttool.R;
 import java.util.ArrayList;
@@ -25,49 +26,39 @@ import java.util.List;
 
 public abstract class BaseWelcomeActivity extends BaseCompatActivity {
 
+    public abstract int getWelcomeLayoutId();
+    public abstract void initWelcomeView();
+    public abstract void initWelcomeData();
+    public abstract void initWelcomeControl();
     public abstract WelcomeInfoBean getWelcomeInfoBean();
-    public abstract void showOverNeedDo();
-    public abstract void toUserPrivateAgreemeetActivity();
+    public abstract void userNoPermission();
+    public abstract void userGetAllPermission();
+
 
     private WelcomeInfoBean welcomeInfoBean;
-    private RelativeLayout bgRL;
-    private ImageView welcomeIV;
-    private TextView userAgress;
+
     @Override
     public int getViewLayoutRsId() {
-        return R.layout.base_activity_welcome;
+        return getWelcomeLayoutId();
     }
 
     @Override
     public void initView() {
-        bgRL=findViewById(R.id.rl_bg);
-        welcomeIV=findViewById(R.id.iv_welcome);
-        userAgress=findViewById(R.id.tv_user_apreements);
+        initWelcomeView();
     }
 
     @Override
     public void initData() {
         welcomeInfoBean=getWelcomeInfoBean();
+        initWelcomeData();
         if(null==welcomeInfoBean){
             welcomeInfoBean=new WelcomeInfoBean();
         }
-        bgRL.setBackgroundResource(welcomeInfoBean.getBackGroundRsId());
-        if(0!=welcomeInfoBean.getIconRsId()){
-            welcomeIV.setImageResource(welcomeInfoBean.getIconRsId());
-        }
-        userAgress.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toUserPrivateAgreemeetActivity();
-            }
-        });
-
-
     }
 
     @Override
     public void initControl() {
-        initPermissions();
+        initWelcomeControl();
     }
 
 
@@ -79,9 +70,7 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
 
     @Override
     public void viewIsShow() {
-        if(nowSendPermissionOkIsStart){
-            sendPermissionIsOkMessage();
-        }
+        initPermissions();
     }
 
     @Override
@@ -96,7 +85,7 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
     //权限处理
     // 要申请的权限
     private List<String> permissions;
-    private AlertDialog dialog;
+
     private int getPermissionsActivityType = 52013;
     @TargetApi(Build.VERSION_CODES.M)
     private void initPermissions() {
@@ -104,23 +93,17 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             initNeedPermissions();
             if (checkPermissions()) {
-              showToast("获取全部权限成功");
-                sendPermissionIsOkMessage();
+                userGetAllPermission();
             } else {
-                showToast("获取全部权限失败");
                 showDialogTipUserRequestPermission();
             }
         } else {
-            sendPermissionIsOkMessage();
+            userGetAllPermission();
         }
     }
 
     private void initNeedPermissions() {
         permissions = welcomeInfoBean.getPermissionList();
-        if(null==permissions){
-            permissions=new ArrayList<>();
-        }
-
 
     }
 
@@ -149,35 +132,31 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
 
 
 
+    private WelcomeDialog welcomeDialog;
+    private WelcomeDialog.Click welcomeDialogClick=new WelcomeDialog.Click() {
 
-    private  boolean nowSendPermissionOkIsStart=false;
 
-    //发送权限OK的消息
-    private void sendPermissionIsOkMessage() {
-        nowSendPermissionOkIsStart=true;
-        MyApplicationFile.getInstance().mkFile();
-        showOverNeedDo();
-        finish();
+        @Override
+        public void userCanToCheck() {
+            startRequestPermission();
+        }
 
-    }
+        @Override
+        public void userToSet() {
+            goToAppSetting();
+        }
 
+        @Override
+        public void userCancel() {
+            userNoPermission();
+        }
+    };
     // 提示用户该请求权限的弹出框
     private void showDialogTipUserRequestPermission() {
-        new AlertDialog.Builder(this)
-                .setTitle("有必须权限不可用")
-                .setMessage("由于APP需要获取对应权限才能操作；\n否则，您将无法正常使用")
-                .setPositiveButton("立即开启", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        startRequestPermission();
-                    }
-                })
-                .setNegativeButton("取消", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        finish();
-                    }
-                }).setCancelable(false).show();
+        if(null==welcomeDialog){
+            welcomeDialog=new WelcomeDialog(welcomeDialogClick);
+        }
+        welcomeDialog.show(this);
     }
 
     // 开始提交请求权限
@@ -198,34 +177,17 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
                     canStar = (grantResults[i] == PackageManager.PERMISSION_GRANTED);
                 }
                 if (canStar) {
-                    sendPermissionIsOkMessage();
-                    Toast.makeText(this, "权限获取成功", Toast.LENGTH_SHORT).show();
+                    userGetAllPermission();
+
                 } else {
-                    showDialogTipUserGoToAppSettting();
+                    showDialogTipUserRequestPermission();
+
                 }
             }
         }
     }
 
-    // 提示用户去应用设置界面手动开启权限
-    private void showDialogTipUserGoToAppSettting() {
-        dialog = new AlertDialog.Builder(this)
-                .setTitle("权限不可用")
-                .setMessage("请在-应用设置-权限-中，允许使用权限来操作APP")
-                .setPositiveButton("立即开启", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        // 跳转到应用设置界面
-                        goToAppSetting();
-                    }
-                })
-                .setNegativeButton("取消", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        finish();
-                    }
-                }).setCancelable(false).show();
-    }
+
 
     // 跳转到当前应用的设置界面
     private void goToAppSetting() {
@@ -245,13 +207,9 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
                 // 检查该权限是否已经获取
                 if (checkPermissions()) {
                     // 提示用户应该去应用设置界面手动开启权限
-                    showDialogTipUserGoToAppSettting();
+                    userGetAllPermission();
                 } else {
-                    if (dialog != null && dialog.isShowing()) {
-                        dialog.dismiss();
-                    }
-                    sendPermissionIsOkMessage();
-                    Toast.makeText(this, "权限获取成功", Toast.LENGTH_SHORT).show();
+                    showDialogTipUserRequestPermission();
                 }
             }
         }

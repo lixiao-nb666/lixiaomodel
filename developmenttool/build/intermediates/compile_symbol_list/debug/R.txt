@@ -940,7 +940,6 @@ int id item_title 0x0
 int id item_touch_helper_previous_elevation 0x0
 int id iv_app_icon 0x0
 int id iv_back 0x0
-int id iv_welcome 0x0
 int id launch_product_query 0x0
 int id left 0x0
 int id line1 0x0
@@ -971,7 +970,6 @@ int id return_scan_result 0x0
 int id right 0x0
 int id right_icon 0x0
 int id right_side 0x0
-int id rl_bg 0x0
 int id rl_system_apps 0x0
 int id screen 0x0
 int id scrollIndicatorDown 0x0
@@ -1027,7 +1025,6 @@ int id tv_private 0x0
 int id tv_show_update_info 0x0
 int id tv_title 0x0
 int id tv_update_version_name 0x0
-int id tv_user_apreements 0x0
 int id tv_user_private_body 0x0
 int id uniform 0x0
 int id up 0x0
@@ -1072,7 +1069,6 @@ int layout activity_qrcode_capture_layout 0x0
 int layout activity_user_private 0x0
 int layout activity_version_update 0x0
 int layout adapter_apps_layout 0x0
-int layout base_activity_welcome 0x0
 int layout custom_dialog 0x0
 int layout item_qrcode_footer 0x0
 int layout item_qrcode_title 0x0
