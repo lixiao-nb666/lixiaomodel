@@ -15,6 +15,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ActivityCompat;
+
+import com.lixiao.build.mybase.LG;
 import com.lixiao.build.mybase.activity.BaseCompatActivity;
 import com.lixiao.build.mybase.activity.welcome.bean.WelcomeInfoBean;
 import com.lixiao.build.mybase.activity.welcome.dialog.WelcomeDialog;
@@ -34,6 +36,13 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
     public abstract void userNoPermission();
     public abstract void userGetAllPermission();
 
+    private boolean isCanSend=true;
+    private void canSendUserGetAllPermission(){
+        if(isCanSend){
+            isCanSend=false;
+            userGetAllPermission();
+        }
+    }
 
     private WelcomeInfoBean welcomeInfoBean;
 
@@ -93,24 +102,26 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             initNeedPermissions();
             if (checkPermissions()) {
-                userGetAllPermission();
+                canSendUserGetAllPermission();
             } else {
                 showDialogTipUserRequestPermission();
             }
         } else {
-            userGetAllPermission();
+            canSendUserGetAllPermission();
         }
     }
 
+
+
     private void initNeedPermissions() {
         permissions = welcomeInfoBean.getPermissionList();
-
     }
 
     //检测是否全部授权
     private boolean checkPermissions() {
         for (int i = 0; i < permissions.size(); i++) {
             if (!checkPermission(permissions.get(i))) {
+                LG.i(tag,"checkPermissions:false-"+permissions.get(i));
                 return false;
             }
         }
@@ -177,7 +188,7 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
                     canStar = (grantResults[i] == PackageManager.PERMISSION_GRANTED);
                 }
                 if (canStar) {
-                    userGetAllPermission();
+                    canSendUserGetAllPermission();
 
                 } else {
                     showDialogTipUserRequestPermission();
@@ -207,7 +218,7 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
                 // 检查该权限是否已经获取
                 if (checkPermissions()) {
                     // 提示用户应该去应用设置界面手动开启权限
-                    userGetAllPermission();
+                    canSendUserGetAllPermission();
                 } else {
                     showDialogTipUserRequestPermission();
                 }
