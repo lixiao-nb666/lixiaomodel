@@ -183,6 +183,7 @@ drawable photo_drawable_btn
 drawable qrcode_drawable_btn
 drawable qrcode_view
 id auto_focus
+id bt_reget
 id bt_update_now
 id button_back
 id decode
@@ -279,6 +280,7 @@ string preferences_supplemental_title
 string preferences_vibrate
 string preferences_vibrate_title
 string preview_msg
+string reget_net_update
 string scan_text
 string update_version_info
 string user_agreements_and_privacy_policies

@@ -27,8 +27,25 @@ public class TestUpdateVersionActivity extends BaseVersionUpdateActivity {
 
     @Override
     public VersionQueBean getVersionUpdateInfo() {
+
         VersionQueBean versionQueBean=new VersionQueBean();
-        versionQueBean.setAppName("cvte_device_ota_update");
+
+        String str=getCheckVersionStr();
+        String appName="cvte_device_ota_update";
+        if(str.contains("SMART_DISPLAY")){
+            appName="cvte_device_ota_update";
+        }else if(str.contains("cvte_s905d3_hs")){
+            appName="cvte_device_hs_s905_ota_update";
+        }else{
+            int index=str.indexOf("_");
+            if(index!=-1){
+                appName=str.substring(0,index);
+            }else {
+                appName=str;
+            }
+        }
+        versionQueBean.setAppName(appName);
+
         return versionQueBean;
     }
 
@@ -53,12 +70,14 @@ public class TestUpdateVersionActivity extends BaseVersionUpdateActivity {
     public void netQueOk(VersionBean versionBean) {
         updateVersionInfoTV.setText("有新版本，可更新!\n("+getCheckVersionStr()+">>"+versionBean.getVersionCode()+")");
         nowUpdateBT.setVisibility(View.VISIBLE);
+        regetBT.setVisibility(View.GONE);
     }
 
     @Override
     public void netQueErr(String errStr) {
-        updateVersionInfoTV.setText(errStr);
+        updateVersionInfoTV.setText("当前版本号："+getCheckVersionStr()+"\nnet err:"+errStr);
         nowUpdateBT.setVisibility(View.GONE);
+        regetBT.setVisibility(View.VISIBLE);
     }
 
     @Override

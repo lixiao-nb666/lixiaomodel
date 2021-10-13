@@ -17,5 +17,5 @@
 <resources>
     <string name="update_version_info">版本信息:</string>
     <string name="now_update_version">马上更新</string>
-
+    <string name="reget_net_update">重新获取</string>
 </resources>

@@ -902,6 +902,7 @@ id async
 id auto_focus
 id blocking
 id bottom
+id bt_reget
 id bt_update_now
 id buttonPanel
 id button_back
@@ -1180,6 +1181,7 @@ string preferences_supplemental_title
 string preferences_vibrate
 string preferences_vibrate_title
 string preview_msg
+string reget_net_update
 string scan_text
 string search_menu_title
 string status_bar_notification_info_overflow

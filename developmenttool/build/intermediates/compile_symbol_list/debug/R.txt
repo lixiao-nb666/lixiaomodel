@@ -901,6 +901,7 @@ int id async 0x0
 int id auto_focus 0x0
 int id blocking 0x0
 int id bottom 0x0
+int id bt_reget 0x0
 int id bt_update_now 0x0
 int id buttonPanel 0x0
 int id button_back 0x0
@@ -1179,6 +1180,7 @@ int string preferences_supplemental_title 0x0
 int string preferences_vibrate 0x0
 int string preferences_vibrate_title 0x0
 int string preview_msg 0x0
+int string reget_net_update 0x0
 int string scan_text 0x0
 int string search_menu_title 0x0
 int string status_bar_notification_info_overflow 0x0

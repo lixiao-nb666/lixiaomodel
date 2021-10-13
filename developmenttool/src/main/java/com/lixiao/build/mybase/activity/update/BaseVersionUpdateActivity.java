@@ -44,11 +44,13 @@ public abstract class BaseVersionUpdateActivity extends BaseCompatActivity {
         @Override
         public void requestFailure(String request, IOException e, int netbs) {
             LG.i(tag,"===========kankan---1:"+request+":"+e.toString());
+            canToGet=true;
             netQueErr(request+":"+e.toString());
         }
 
         @Override
         public void requestSuccess(String result, int netbs) throws Exception {
+            canToGet=true;
             Msg msg=NetToGet.getInstance().getMessageBean(result);
 
             if(msg.getC()==0){
@@ -77,20 +79,28 @@ public abstract class BaseVersionUpdateActivity extends BaseCompatActivity {
     };
     private VersionBean versionBean;
     protected TextView versionNameTV,updateVersionInfoTV;
-    protected Button nowUpdateBT;
+    protected Button nowUpdateBT,regetBT;
     private View.OnClickListener onClickListener=new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            if(null!=versionBean&& !TextUtils.isEmpty(versionBean.getDownUrl())){
-                basehandler.postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        XiaoGeDownNeedInfoBean xiaoGeDownNeedInfoBean=new XiaoGeDownNeedInfoBean();
-                        xiaoGeDownNeedInfoBean.setDownUrl(versionBean.getDownUrl());
-                        XiaoGeDownEvent.getInstance().update(XiaoGeDownEventType.DOWN_FILE,xiaoGeDownNeedInfoBean);
-                    }
-                },500);
+            if(v.getId()==R.id.bt_update_now){
+                if(null!=versionBean&& !TextUtils.isEmpty(versionBean.getDownUrl())){
+                    basehandler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            XiaoGeDownNeedInfoBean xiaoGeDownNeedInfoBean=new XiaoGeDownNeedInfoBean();
+                            xiaoGeDownNeedInfoBean.setDownUrl(versionBean.getDownUrl());
+                            XiaoGeDownEvent.getInstance().update(XiaoGeDownEventType.DOWN_FILE,xiaoGeDownNeedInfoBean);
+                        }
+                    },500);
+                }
+            }else if(v.getId()==R.id.bt_reget){
+
             }
+
+
+
+
         }
     };
 
@@ -104,6 +114,7 @@ public abstract class BaseVersionUpdateActivity extends BaseCompatActivity {
         versionNameTV=findViewById(R.id.tv_update_version_name);
         updateVersionInfoTV=findViewById(R.id.tv_show_update_info);
         nowUpdateBT=findViewById(R.id.bt_update_now);
+        regetBT=findViewById(R.id.bt_reget);
         downProgressTV=findViewById(R.id.tv_down_info);
         findViewById(R.id.ll_bg).setBackgroundResource(getBGRsId());
     }
@@ -112,8 +123,19 @@ public abstract class BaseVersionUpdateActivity extends BaseCompatActivity {
     public void initData() {
         versionNameTV.setText(getVersionShowName());
         nowUpdateBT.setOnClickListener(onClickListener);
-        NetToSend.getInstance().setSendToRequest(getQueVersionUrl(),"vvq", MyGson.getInstance().toGsonStr(getVersionUpdateInfo()),dataCallBack,0);
+        regetBT.setOnClickListener(onClickListener);
+        getNetData();
     }
+
+    private boolean canToGet=true;
+    private void getNetData(){
+        if(canToGet){
+            canToGet=false;
+            NetToSend.getInstance().setSendToRequest(getQueVersionUrl(),"vvq", MyGson.getInstance().toGsonStr(getVersionUpdateInfo()),dataCallBack,0);
+        }
+
+    }
+
 
     @Override
     public void initControl() {
@@ -192,7 +214,6 @@ public abstract class BaseVersionUpdateActivity extends BaseCompatActivity {
                 downProgressTV.setText(str);
             }
         });
-
     }
 
 

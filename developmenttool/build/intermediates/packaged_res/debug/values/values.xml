@@ -227,6 +227,7 @@
     <string name="preferences_vibrate">preferences_vibrate</string>
     <string name="preferences_vibrate_title">Vibrate</string>
     <string name="preview_msg"> preview pages available,click Download for more.</string>
+    <string name="reget_net_update">重新获取</string>
     <string name="scan_text">放入框中即可进行二维码扫描</string>
     <string name="update_version_info">版本信息:</string>
     <string name="user_agreements_and_privacy_policies"> 用户协议和隐私政策</string>
