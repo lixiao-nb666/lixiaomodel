@@ -133,6 +133,7 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
     private boolean checkPermission(String permission) {
         // 检查该权限是否已经获取
         int a = this.checkSelfPermission(permission);
+        LG.i(tag,"checkSelfPermission："+a+"-"+permission);
         // 权限是否已经 授权 GRANTED---授权  DINIED---拒绝
         if (a == PackageManager.PERMISSION_GRANTED)
             return true;
@@ -164,6 +165,10 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
     };
     // 提示用户该请求权限的弹出框
     private void showDialogTipUserRequestPermission() {
+        if(!isCanSend){
+            return;
+        }
+
         if(null==welcomeDialog){
             welcomeDialog=new WelcomeDialog(welcomeDialogClick);
         }
@@ -189,10 +194,8 @@ public abstract class BaseWelcomeActivity extends BaseCompatActivity {
                 }
                 if (canStar) {
                     canSendUserGetAllPermission();
-
                 } else {
                     showDialogTipUserRequestPermission();
-
                 }
             }
         }
