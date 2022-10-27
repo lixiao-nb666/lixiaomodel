@@ -1,41 +1,41 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
-INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
+ADDED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
 	package
-		ADDED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:2:5-41
-		INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
-		INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
+		ADDED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:2:5-41
+		INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
+		INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
-		ADDED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
-		INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
+		INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
+		ADDED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
+		INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
-		ADDED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
-		INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
+		INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
+		ADDED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:1-5:12
+		INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:11-69
+		ADDED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.VIBRATE
-ADDED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:4:5-66
+ADDED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:4:5-66
 	android:name
-		ADDED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:4:22-63
+		ADDED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml:4:22-63
 uses-sdk
-INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
-INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
-INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
-INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
+INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
+INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
+INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
+INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
-		ADDED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
-		INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
+		INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
+		ADDED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
+		INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
-		ADDED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
-		INJECTED from F:\CBR\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
+		INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
+		ADDED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml
+		INJECTED from H:\asworkspace\other_view\lixiaomodel\developmenttool\src\main\AndroidManifest.xml

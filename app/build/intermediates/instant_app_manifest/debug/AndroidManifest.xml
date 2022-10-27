@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.newbee.lixiaomodel"
+    package="com.nrmyw.launcher"
     android:targetSandboxVersion="2"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="29" />
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
 
     <uses-feature android:name="android.hardware.usb.host" />
     <uses-feature android:name="android.hardware.camera" />
@@ -74,13 +74,8 @@
     <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
     <uses-permission android:name="android.permission.GET_TASKS" />
 
-    <permission
-        android:name="com.newbee.lixiaomodel.deviceautostart"
-        android:label="provider pomission"
-        android:protectionLevel="normal" />
-
     <application
-        android:name="com.newbee.lixiaomodel.MyApplication"
+        android:name="com.nrmyw.launcher.app.MyApp"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -95,18 +90,27 @@
             android:name="org.apache.http.legacy"
             android:required="false" />
 
-        <activity android:name="com.newbee.lixiaomodel.DemoActivity" >
+        <activity
+            android:name="com.nrmyw.launcher.MainLauncherActivity"
+            android:screenOrientation="landscape" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.newbee.lixiaomodel.TestAidlActivity" />
-        <activity android:name="com.newbee.lixiaomodel.LauncherActivity" />
+        <!-- <activity android:name=".MainLauncherActivity" android:screenOrientation="landscape"/> -->
         <activity android:name="com.newbee.lixiaomodel.UserPrivateAgreemeetActivity" />
         <activity android:name="com.newbee.lixiaomodel.TestDownActivity" />
-        <activity android:name="com.newbee.lixiaomodel.TestUploadActivity" />
+        <activity android:name="com.newbee.lixiaomodel.TestUploadActivity" >
+            <intent-filter android:scheme="http" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.newbee.lixiaomodel.TestMyRadioGroupActivity" />
         <!-- <activity android:name=".TestUpdateVersionActivity"/> -->
         <!-- <activity android:name=".OpenGlTextActivity1"/> -->
@@ -114,20 +118,13 @@
         <service android:name="com.lixiao.oss.service.OssService" />
 
         <provider
-            android:name="com.newbee.lixiaomodel.TestContentProvider"
-            android:authorities="com.newbee.lixiaomodel.deviceautostart"
-            android:enabled="true"
-            android:exported="true"
-            android:permission="com.newbee.lixiaomodel.deviceautostart" >
-        </provider>
-        <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.newbee.lixiaomodel.lifecycle-process"
+            android:authorities="com.nrmyw.launcher.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
         <provider
             android:name="com.liulishuo.okdownload.OkDownloadProvider"
-            android:authorities="com.newbee.lixiaomodel.com.liulishuo.okdownload"
+            android:authorities="com.nrmyw.launcher.com.liulishuo.okdownload"
             android:exported="false" />
     </application>
 

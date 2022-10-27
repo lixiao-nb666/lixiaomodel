@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_bj"
+    android:orientation="vertical"
+>
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="70px"
+            android:text="nrmyw"/>
+<!--        android:text="nrmyw"-->
+<!--        <com.vlad1m1r.lemniscate.BernoullisProgressView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:duration="1000"-->
+<!--            app:hasHole="false"-->
+<!--            app:lineColor="@color/colorPrimary"-->
+<!--            app:maxLineLength="0.8"-->
+<!--            app:minLineLength="0.4"-->
+<!--            app:sizeMultiplier="1"-->
+<!--            app:strokeWidth="5dp"/>-->
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:clipToPadding="false"
+    />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="33px"
+            android:textColor="@color/white"
+            android:textSize="38px"
+            android:text="本设备最终解释权为nrmyw所有"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

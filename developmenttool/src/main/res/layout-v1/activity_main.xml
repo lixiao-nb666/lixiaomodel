@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+>
+
+    <TextView
+          android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+         android:textSize="16sp" />
+
+        <com.lixiao.view.viewpager.GalleryFlow
+          android:id="@+id/mygallery"
+           android:spacing="20dp"
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:unselectedAlpha="128"
+           android:layout_below="@id/tvTitle"
+           android:layout_marginTop="10dip" />
+
+        <com.lixiao.view.viewpager.ReflectedImageView
+            android:id="@+id/iv"
+            android:layout_width="600px"
+            android:layout_height="600px"
+            android:background="@color/red"/>
+
+</RelativeLayout>

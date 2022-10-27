@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "outputFile": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\d9cd54f73ae879248b83fa8524fb53b1\\appcompat-1.2.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\lixiao\\.gradle\\caches\\transforms-2\\files-2.1\\a16db5b44425ecffd4781fb791b0f708\\appcompat-1.2.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

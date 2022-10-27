@@ -16,6 +16,7 @@ import com.lixiao.build.util.systemapp.observer.PackageManagerSubscriptionSubjec
 import com.lixiao.build.util.systemapp.observer.PackageManagerType;
 
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -47,6 +48,7 @@ public class PackageManagerUtil {
 
     public Drawable getIcon(String packageName) {
         try {
+
             return manager.getApplicationIcon(packageName);
         } catch (Exception e) {
             return null;
@@ -70,6 +72,9 @@ public class PackageManagerUtil {
         new Thread(new Runnable() {
             @Override
             public void run() {
+
+
+
                 resultSystemAppInfoBean= new ResultSystemAppInfoBean();
                 List<ResolveInfo> resolveInfoList = getResolveInfos();
                 if (resolveInfoList == null || resolveInfoList.size() == 0) {
@@ -110,7 +115,13 @@ public class PackageManagerUtil {
     }
 
 
+
+
+
     private List<ResolveInfo> getResolveInfos() {
+
+
+
         List<ResolveInfo> appList = null;
         Intent intent = new Intent(Intent.ACTION_MAIN, null);
         intent.addCategory(Intent.CATEGORY_LAUNCHER);

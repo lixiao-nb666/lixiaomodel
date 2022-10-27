@@ -4,6 +4,7 @@ import com.lixiao.build.mybase.LG;
 import com.lixiao.build.mybase.activity.BaseCompatActivity;
 import com.lixiao.view.radiogroup.MyRadioDataInfoBean;
 import com.lixiao.view.radiogroup.MyRadioGroup;
+import com.nrmyw.launcher.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,39 +55,30 @@ public class TestMyRadioGroupActivity extends BaseCompatActivity {
                     dataInfoBean1.setBgRs(R.drawable.launcher_app_list);
                     break;
             }
-
             dataInfoBean1.setType(i+"");
             dataInfoBean1.setShowText(i+"");
             list.add(dataInfoBean1);
         }
-
-
-
         myRadioGroup.setList(list,"2");
     }
 
     @Override
     public void initControl() {
-
     }
 
     @Override
     public void closeActivity() {
-
     }
 
     @Override
     public void viewIsShow() {
-
     }
 
     @Override
     public void viewIsPause() {
-
     }
 
     @Override
     public void changeConfig() {
-
     }
 }

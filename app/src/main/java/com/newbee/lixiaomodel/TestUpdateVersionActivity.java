@@ -10,6 +10,7 @@ import com.lixiao.build.mybase.activity.update.bean.VersionBean;
 import com.lixiao.build.mybase.activity.update.bean.VersionQueBean;
 
 import com.lixiao.build.util.phone.PhoneUtil;
+import com.nrmyw.launcher.R;
 
 import java.io.File;
 import java.io.IOException;

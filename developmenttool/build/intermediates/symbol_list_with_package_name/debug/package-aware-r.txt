@@ -812,6 +812,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable bj
 drawable fas
 drawable fat
 drawable find
@@ -823,7 +824,16 @@ drawable flh
 drawable fli
 drawable flj
 drawable flk
+drawable ic_launcher
 drawable icon_back
+drawable image001
+drawable image002
+drawable image003
+drawable image004
+drawable image005
+drawable image006
+drawable img
+drawable img_1
 drawable launcher_app_list
 drawable launcher_app_list_bg
 drawable mm_title_back_btn
@@ -940,6 +950,7 @@ id italic
 id item_footer
 id item_title
 id item_touch_helper_previous_elevation
+id iv
 id iv_app_icon
 id iv_back
 id launch_product_query
@@ -952,6 +963,7 @@ id ll_app
 id ll_bg
 id message
 id multiply
+id mygallery
 id none
 id normal
 id notification_background
@@ -1021,6 +1033,7 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id tvTitle
 id tv_app_name
 id tv_down_info
 id tv_private
@@ -1067,9 +1080,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_main
 layout activity_qrcode_capture_layout
 layout activity_user_private
 layout activity_version_update
+layout adapter_3d_apps_layout
 layout adapter_apps_layout
 layout custom_dialog
 layout item_qrcode_footer
@@ -1083,6 +1098,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout spj_system_3d_apps_layout
 layout spj_system_apps_layout
 layout support_simple_spinner_dropdown_item
 raw beep

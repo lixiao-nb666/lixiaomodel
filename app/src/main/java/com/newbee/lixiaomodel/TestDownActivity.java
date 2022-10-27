@@ -11,6 +11,7 @@ import com.lixiao.down.event.XiaoGeDownEventType;
 import com.lixiao.down.listen.XiaoGeDownListen;
 import com.lixiao.down.listen.XiaoGeDownListenObserver;
 import com.lixiao.down.listen.XiaoGeDownListenSubject;
+import com.nrmyw.launcher.R;
 
 /**
  * @author lixiaogege!

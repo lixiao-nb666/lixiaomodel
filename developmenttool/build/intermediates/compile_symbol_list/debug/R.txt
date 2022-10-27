@@ -811,6 +811,7 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x0
 int drawable abc_textfield_search_default_mtrl_alpha 0x0
 int drawable abc_textfield_search_material 0x0
 int drawable abc_vector_test 0x0
+int drawable bj 0x0
 int drawable fas 0x0
 int drawable fat 0x0
 int drawable find 0x0
@@ -822,7 +823,16 @@ int drawable flh 0x0
 int drawable fli 0x0
 int drawable flj 0x0
 int drawable flk 0x0
+int drawable ic_launcher 0x0
 int drawable icon_back 0x0
+int drawable image001 0x0
+int drawable image002 0x0
+int drawable image003 0x0
+int drawable image004 0x0
+int drawable image005 0x0
+int drawable image006 0x0
+int drawable img 0x0
+int drawable img_1 0x0
 int drawable launcher_app_list 0x0
 int drawable launcher_app_list_bg 0x0
 int drawable mm_title_back_btn 0x0
@@ -939,6 +949,7 @@ int id italic 0x0
 int id item_footer 0x0
 int id item_title 0x0
 int id item_touch_helper_previous_elevation 0x0
+int id iv 0x0
 int id iv_app_icon 0x0
 int id iv_back 0x0
 int id launch_product_query 0x0
@@ -951,6 +962,7 @@ int id ll_app 0x0
 int id ll_bg 0x0
 int id message 0x0
 int id multiply 0x0
+int id mygallery 0x0
 int id none 0x0
 int id normal 0x0
 int id notification_background 0x0
@@ -1020,6 +1032,7 @@ int id titleDividerNoCustom 0x0
 int id title_template 0x0
 int id top 0x0
 int id topPanel 0x0
+int id tvTitle 0x0
 int id tv_app_name 0x0
 int id tv_down_info 0x0
 int id tv_private 0x0
@@ -1066,9 +1079,11 @@ int layout abc_search_dropdown_item_icons_2line 0x0
 int layout abc_search_view 0x0
 int layout abc_select_dialog_material 0x0
 int layout abc_tooltip 0x0
+int layout activity_main 0x0
 int layout activity_qrcode_capture_layout 0x0
 int layout activity_user_private 0x0
 int layout activity_version_update 0x0
+int layout adapter_3d_apps_layout 0x0
 int layout adapter_apps_layout 0x0
 int layout custom_dialog 0x0
 int layout item_qrcode_footer 0x0
@@ -1082,6 +1097,7 @@ int layout notification_template_part_time 0x0
 int layout select_dialog_item_material 0x0
 int layout select_dialog_multichoice_material 0x0
 int layout select_dialog_singlechoice_material 0x0
+int layout spj_system_3d_apps_layout 0x0
 int layout spj_system_apps_layout 0x0
 int layout support_simple_spinner_dropdown_item 0x0
 int raw beep 0x0

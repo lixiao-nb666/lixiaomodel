@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.newbee.lixiaomodel">
+    package="com.nrmyw.launcher">
     <uses-feature android:name="android.hardware.usb.host"/>
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
@@ -71,7 +71,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
-        android:name=".MyApplication"
+        android:name=".app.MyApp"
         android:theme="@style/NewBee.BaseImmersiveThemeTransparentNavigation" >
         <uses-library
             android:name="org.apache.http.legacy"
@@ -79,18 +79,29 @@
 
 
         <activity
-            android:name=".DemoActivity">
+            android:name=".MainLauncherActivity"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
         </activity>
-        <activity android:name=".LauncherActivity"/>
-        <activity android:name=".UserPrivateAgreemeetActivity"/>
-        <activity android:name=".TestDownActivity"/>
-        <activity android:name=".TestUploadActivity"/>
-        <activity android:name=".TestMyRadioGroupActivity"/>
-<!--        <activity android:name=".TestUpdateVersionActivity"/>-->
+<!--        <activity android:name=".MainLauncherActivity" android:screenOrientation="landscape"/>-->
+        <activity android:name="com.newbee.lixiaomodel.UserPrivateAgreemeetActivity"/>
+        <activity android:name="com.newbee.lixiaomodel.TestDownActivity"/>
+        <activity android:name="com.newbee.lixiaomodel.TestUploadActivity">
+            <intent-filter android:scheme="http">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+
+
+        </activity>
+        <activity android:name="com.newbee.lixiaomodel.TestMyRadioGroupActivity"/>
+        <!--        <activity android:name=".TestUpdateVersionActivity"/>-->
 <!--        <activity android:name=".OpenGlTextActivity1"/>-->
         <service android:name="com.lixiao.down.service.XiaoGeDownLoaderService"/>
         <service android:name="com.lixiao.oss.service.OssService"/>

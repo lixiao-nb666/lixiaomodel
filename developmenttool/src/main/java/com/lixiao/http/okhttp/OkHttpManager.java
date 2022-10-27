@@ -23,6 +23,7 @@ import okhttp3.CookieJar;
 import okhttp3.FormBody;
 import okhttp3.HttpUrl;
 import okhttp3.MediaType;
+import okhttp3.MultipartBody;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
@@ -322,6 +323,7 @@ public class OkHttpManager {
              */
             builder.add(key, value);
         }
+
         requestBody = builder.build();
         //结果返回
         final Request request = new Request.Builder().url(url).post(requestBody).build();
@@ -436,7 +438,7 @@ public class OkHttpManager {
                 InputStream inputStream = null;
                 FileOutputStream fileOutputStream = null;
                 try {
-                    //文件名和目标地址
+                    //文件名和目标地址4
                     File file = new File(filePath);
                     if (!file.getParentFile().exists()) {
                         file.getParentFile().mkdirs();
@@ -496,6 +498,79 @@ public class OkHttpManager {
         return path;
     }
 
+//    private void uploadFile(String url ,File f){
+//        try {
+//            OkHttpClient client = new OkHttpClient();
+//            MediaType mediaType = MediaType.parse("image/png");
+//            RequestBody fileBody = RequestBody.create(mediaType, f);
+//            RequestBody requestBody = new MultipartBody.Builder()
+//                    .setType(MultipartBody.FORM)
+//                    .addFormDataPart("file", f.getName(), fileBody)
+//                    .addFormDataPart(MediaType.parse("application/json; charset=utf-8")
+//                            , )
+//                    .build();
+//            Request request = new Request.Builder()
+//                    .url(url)
+//                    .post(requestBody)
+//                    .build();
+//            Response response = client.newCall(request).execute();
+//            String responseData = response.body().string();
+//        }catch (Exception e){
+//        }
+//    }
 
+    public void uploadFiles(final String url, List<String> pathList, Map<String, String> map , final DataCallBack callBack, final int netbs){
+        //初始化OkHttpClient
+        OkHttpClient client = new OkHttpClient();
+        // form 表单形式上传
+        MultipartBody.Builder requestBody = new MultipartBody.Builder();
+        requestBody.setType(MultipartBody.FORM);
+        //pathList是文件路径对应的列表
+        if (null != pathList && pathList.size() > 0) {
+            for (String path : pathList) {
+                File file = new File(path);
+                if (file != null) {
+                    // MediaType.parse() 里面是上传的文件类型。
+                    RequestBody body = RequestBody.create(MediaType.parse("image/*"), file);
+                    // 参数分别为， 请求key ，文件名称 ， RequestBody
+                    requestBody.addFormDataPart("images", file.getName(), body);
+                }
+            }
+        }
+        //要上传的文字参数
+//       = new HashMap<>();
+//        map.put("param1", "param1" );
+//        map.put("param2","param1");
+        if (null!=map &&  map.size()>0) {
+            for (String key : map.keySet()) {
+                requestBody.addFormDataPart(key, map.get(key));
+            }
+        }
+        //创建Request对象
+        final Request request = new Request.Builder().url(url)
+                .addHeader("Content-Type", "application/json;charset=UTF-8")//添加header
+                .addHeader("token", "xxxxx").build();
+        // readTimeout("请求超时时间" , 时间单位);
+        client.newBuilder().readTimeout(5000, TimeUnit.MILLISECONDS).build().newCall(request).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                //请求失败处理
+                callBack.requestFailure(url,e,netbs);
+
+            }
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                String result = null;
+                try {
+                    result = response.body().string();
+                } catch (IOException e) {
+                    deliverDataFailure(request, e, callBack, netbs);
+                }
+                deliverDataSuccess(result, callBack, netbs);
+            }
+        });
+
+    }
 
 }

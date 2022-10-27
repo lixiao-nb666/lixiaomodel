@@ -48,9 +48,6 @@
         <item name="android:hyphenationFrequency">none</item>
         <item name="android:breakStrategy">high_quality</item>
     </style>
-    <style name="CardView" parent="Base.CardView">
-        <item name="cardBackgroundColor">?android:attr/colorBackgroundFloating</item>
-    </style>
     <style name="NewBee.BaseImmersiveTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- true: status栏会有一层阴影；false: status栏没有阴影;当该项为true时，则name="android:windowLightStatusBar"设置无效，永远为白色 -->
         <item name="android:windowTranslucentStatus">true</item>
@@ -69,12 +66,4 @@
         <!--Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色-->
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
-    <style name="Widget.MaterialComponents.PopupMenu.ContextMenu" parent="Base.Widget.MaterialComponents.PopupMenu.ContextMenu">
-    <item name="android:popupBackground">?attr/popupMenuBackground</item>
-    <item name="android:popupElevation">8dp</item>
-  </style>
-    <style name="Widget.MaterialComponents.PopupMenu.ListPopupWindow" parent="Base.Widget.MaterialComponents.PopupMenu.ListPopupWindow">
-    <item name="android:popupBackground">?attr/popupMenuBackground</item>
-    <item name="android:popupElevation">8dp</item>
-  </style>
 </resources>

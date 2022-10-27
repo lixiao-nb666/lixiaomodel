@@ -1,4 +1,10 @@
-#Thu Sep 23 21:46:49 CST 2021
-base.0=F\:\\CBR\\lixiaomodel\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+#Thu Oct 27 20:01:27 CST 2022
+path.2=classes_0.dex
+path.1=classes.dex
 path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+base.2=H\:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_0.dex
+base.1=H\:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.0=H\:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex

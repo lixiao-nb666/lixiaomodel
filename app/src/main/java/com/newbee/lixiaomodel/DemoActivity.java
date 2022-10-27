@@ -4,6 +4,8 @@ import android.Manifest;
 
 import com.lixiao.build.mybase.activity.welcome.BaseWelcomeActivity;
 import com.lixiao.build.mybase.activity.welcome.bean.WelcomeInfoBean;
+import com.nrmyw.launcher.MainLauncherActivity;
+import com.nrmyw.launcher.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,22 +20,19 @@ public class DemoActivity extends BaseWelcomeActivity {
 
     @Override
     public int getWelcomeLayoutId() {
-        return R.layout.activity_welcemo;
+        return R.layout.activity_opengl1;
     }
 
     @Override
     public void initWelcomeView() {
-
     }
 
     @Override
     public void initWelcomeData() {
-
     }
 
     @Override
     public void initWelcomeControl() {
-
     }
 
     @Override
@@ -57,16 +56,15 @@ public class DemoActivity extends BaseWelcomeActivity {
 
     @Override
     public void userNoPermission() {
-
     }
 
     @Override
     public void userGetAllPermission() {
-        TestSql.getInstance().add();;
-        TestSql.getInstance().que11();
+//        TestSql.getInstance().add();
+//        TestSql.getInstance().que11();
 //        toActivity(TestAidlActivity.class);
         showToast("获得所有权限成功");
-
+        toActivity(MainLauncherActivity.class);
     }
 
 

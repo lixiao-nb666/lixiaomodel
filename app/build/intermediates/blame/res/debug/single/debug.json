@@ -1,114 +1,98 @@
 [
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main.jpg.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\drawable\\main.jpg"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_launcher.xml.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\layout\\activity_launcher.xml"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_inno_cn_update_version.png.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\drawable\\bg_inno_cn_update_version.png"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test_radiogroup.xml.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\layout\\activity_test_radiogroup.xml"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test_radiogroup.xml.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\layout\\activity_test_radiogroup.xml"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main.jpg.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\drawable\\main.jpg"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_password.xml.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\layout\\activity_password.xml"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test_down.xml.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\layout\\activity_test_down.xml"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapter_lv_apps_layout.xml.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\layout\\adapter_lv_apps_layout.xml"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_password.xml.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\layout\\activity_password.xml"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_opengl1.xml.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\layout\\activity_opengl1.xml"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test_aidl.xml.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\layout\\activity_test_aidl.xml"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_item_bj.png.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\drawable\\item_bj.png"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_all_bj.png.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\drawable\\all_bj.png"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test.xml.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\layout\\activity_test.xml"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test_down.xml.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\layout\\activity_test_down.xml"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_opengl1.xml.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\layout\\activity_opengl1.xml"
-    },
-    {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_inno_cn_update_version.png.flat",
-        "source": "F:\\CBR\\lixiaomodel\\app\\src\\main\\res\\drawable\\bg_inno_cn_update_version.png"
+        "merged": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     }
 ]

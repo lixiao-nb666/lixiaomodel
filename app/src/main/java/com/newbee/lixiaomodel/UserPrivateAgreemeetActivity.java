@@ -15,3 +15,4 @@ public class UserPrivateAgreemeetActivity extends BaseUserPrivateAgreemeet1Activ
         return null;
     }
 }
+

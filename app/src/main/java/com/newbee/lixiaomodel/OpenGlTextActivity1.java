@@ -9,6 +9,7 @@ import android.widget.ImageView;
 
 import androidx.activity.ComponentActivity;
 
+import com.nrmyw.launcher.R;
 
 
 /**

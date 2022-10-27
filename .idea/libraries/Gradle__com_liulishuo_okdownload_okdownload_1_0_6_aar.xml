@@ -27,6 +27,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd09c52e57b2d9424ee7fd979380c8ef/jetified-okdownload-1.0.6/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd09c52e57b2d9424ee7fd979380c8ef/jetified-okdownload-1.0.6/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd09c52e57b2d9424ee7fd979380c8ef/jetified-okdownload-1.0.6/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bfb6f51123dc7b21d00c451493609703/jetified-okdownload-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bfb6f51123dc7b21d00c451493609703/jetified-okdownload-1.0.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bfb6f51123dc7b21d00c451493609703/jetified-okdownload-1.0.6/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liulishuo.okdownload/okdownload/1.0.6/58d72029a3a82a55d9cded8472464b4d4a1b8ec8/okdownload-1.0.6-javadoc.jar!/" />

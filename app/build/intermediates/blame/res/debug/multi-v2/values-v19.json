@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\CBR\\lixiaomodel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
+            "outputFile": "H:\\asworkspace\\other_view\\lixiaomodel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
             "map": [
                 {
-                    "source": "F:\\CBR\\lixiaomodel\\developmenttool\\build\\intermediates\\packaged_res\\debug\\values-v19\\values-v19.xml",
+                    "source": "H:\\asworkspace\\other_view\\lixiaomodel\\developmenttool\\build\\intermediates\\packaged_res\\debug\\values-v19\\values-v19.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",

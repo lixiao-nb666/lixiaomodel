@@ -1,6 +1,8 @@
 package com.lixiao.build.util.systemapp.adapter;
 
 import android.content.Context;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +14,7 @@ import android.widget.TextView;
 import com.lixiao.build.util.systemapp.PackageManagerUtil;
 import com.lixiao.build.util.systemapp.bean.SystemAppInfoBean;
 import com.lixiao.developmenttool.R;
+import com.lixiao.view.viewpager.ReflectedImageView;
 
 
 import java.util.List;
@@ -63,8 +66,11 @@ public class SystemAppsListAdapter extends BaseAdapter {
         final SystemAppInfoBean app = apps.get(i);
 //        MyGlide.getInstance().setBitMap();
         viewHodler.appIconIV.setScaleType(ImageView.ScaleType.CENTER_CROP);
+//        viewHodler.appIconIV.setImageDrawable(PackageManagerUtil.getInstance().getIcon(app.getPakeageName()));
+//        Drawable drawable=PackageManagerUtil.getInstance().getIcon(app.getPakeageName());
+//        BitmapDrawable bd = (BitmapDrawable) drawable;
+//        viewHodler.appIconIV.setShowBitMap(bd.getBitmap());
         viewHodler.appIconIV.setImageDrawable(PackageManagerUtil.getInstance().getIcon(app.getPakeageName()));
-//        viewHodler.appIconIV.setBackground(PackageManagerUtil.getInstance().getIcon(app.getPakeageName()));
         viewHodler.appIconIV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
