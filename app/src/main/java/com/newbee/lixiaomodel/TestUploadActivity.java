@@ -19,6 +19,7 @@ import com.lixiao.oss.upload.OssUploadUtil;
 import com.nrmyw.launcher.R;
 import com.nrmyw.launcher.util.UrlToFilePathUtil;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -93,7 +94,7 @@ public class TestUploadActivity extends BaseCompatActivity {
     private DataCallBack dataCallBack=new DataCallBack() {
         @Override
         public void requestFailure(String request, IOException e, int netbs) {
-            Log.i(tag,"----kankanfilePath111:"+filePath);
+            Log.i(tag,"----kankanfilePath111:"+e.toString());
         }
 
         @Override
@@ -111,7 +112,7 @@ public class TestUploadActivity extends BaseCompatActivity {
         pathList.add(filePath);
         Map<String,String> map=new HashMap<>();
         map.put("language","zh");
-        OkHttpManager.getInstance().uploadFiles(url, pathList, map, dataCallBack,1);
+        OkHttpManager.getInstance().post_file(url, new File(filePath), map, dataCallBack,1);
 
 
     }

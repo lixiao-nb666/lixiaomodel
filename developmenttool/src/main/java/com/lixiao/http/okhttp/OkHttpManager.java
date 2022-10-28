@@ -2,6 +2,7 @@ package com.lixiao.http.okhttp;
 
 import android.os.Handler;
 import android.os.Looper;
+import android.util.Log;
 
 import com.lixiao.build.mybase.LG;
 import com.lixiao.build.gson.MyGson;
@@ -519,48 +520,95 @@ public class OkHttpManager {
 //        }
 //    }
 
-    public void uploadFiles(final String url, List<String> pathList, Map<String, String> map , final DataCallBack callBack, final int netbs){
-        //初始化OkHttpClient
+//    public void uploadFiles(final String url, List<String> pathList, Map<String, String> map , final DataCallBack callBack, final int netbs){
+//        //初始化OkHttpClient
+//        OkHttpClient client = new OkHttpClient();
+//        // form 表单形式上传
+//        MultipartBody.Builder requestBody = new MultipartBody.Builder();
+//        requestBody.setType(MultipartBody.FORM);
+//        //pathList是文件路径对应的列表
+//        if (null != pathList && pathList.size() > 0) {
+//            for (String path : pathList) {
+//                File file = new File(path);
+//                if (file != null) {
+//                    // MediaType.parse() 里面是上传的文件类型。
+//                    RequestBody body = RequestBody.create(MediaType.parse("image/*"), file);
+//                    // 参数分别为， 请求key ，文件名称 ， RequestBody
+//                    requestBody.addFormDataPart("images", file.getName(), body);
+//                }
+//            }
+//        }
+//        //要上传的文字参数
+////       = new HashMap<>();
+////        map.put("param1", "param1" );
+////        map.put("param2","param1");
+//        if (null!=map &&  map.size()>0) {
+//            for (String key : map.keySet()) {
+//                requestBody.addFormDataPart(key, map.get(key));
+//            }
+//        }
+//        //创建Request对象
+////        final Request request = new Request.Builder().url(url)
+////                .addHeader("Content-Type", "application/json;charset=UTF-8")//添加header
+////                .addHeader("token", "xxxxx").build();
+//
+//        final Request request = new Request.Builder().url(url).post(requestBody).build();
+//        // readTimeout("请求超时时间" , 时间单位);
+//        client.newBuilder().readTimeout(5000, TimeUnit.MILLISECONDS).build().   newCall(request).enqueue(new Callback() {
+//            @Override
+//            public void onFailure(Call call, IOException e) {
+//                //请求失败处理
+//                callBack.requestFailure(url,e,netbs);
+//
+//            }
+//
+//            @Override
+//            public void onResponse(Call call, Response response) throws IOException {
+//                String result = null;
+//                try {
+//                    result = response.body().string();
+//                } catch (IOException e) {
+//                    deliverDataFailure(request, e, callBack, netbs);
+//                }
+//                deliverDataSuccess(result, callBack, netbs);
+//            }
+//        });
+//
+//    }
+
+
+   public void post_file(final String url, File file, Map<String, String> map , final DataCallBack callBack, final int netbs) {
         OkHttpClient client = new OkHttpClient();
         // form 表单形式上传
-        MultipartBody.Builder requestBody = new MultipartBody.Builder();
-        requestBody.setType(MultipartBody.FORM);
-        //pathList是文件路径对应的列表
-        if (null != pathList && pathList.size() > 0) {
-            for (String path : pathList) {
-                File file = new File(path);
-                if (file != null) {
-                    // MediaType.parse() 里面是上传的文件类型。
-                    RequestBody body = RequestBody.create(MediaType.parse("image/*"), file);
-                    // 参数分别为， 请求key ，文件名称 ， RequestBody
-                    requestBody.addFormDataPart("images", file.getName(), body);
-                }
-            }
+        MultipartBody.Builder requestBody = new MultipartBody.Builder().setType(MultipartBody.FORM);
+        if(file != null){
+            // MediaType.parse() 里面是上传的文件类型。
+            RequestBody body = RequestBody.create(MediaType.parse("image/*"), file);
+            String filename = file.getName();
+            // 参数分别为， 请求key ，文件名称 ， RequestBody
+            requestBody.addFormDataPart("file", file.getName(), body);
         }
-        //要上传的文字参数
-//       = new HashMap<>();
-//        map.put("param1", "param1" );
-//        map.put("param2","param1");
-        if (null!=map &&  map.size()>0) {
-            for (String key : map.keySet()) {
+        if (map != null) {
+            // map 里面是请求中所需要的 key 和 value
+            for (String key:map.keySet()) {
                 requestBody.addFormDataPart(key, map.get(key));
             }
         }
-        //创建Request对象
-        final Request request = new Request.Builder().url(url)
-                .addHeader("Content-Type", "application/json;charset=UTF-8")//添加header
-                .addHeader("token", "xxxxx").build();
+        final Request request = new Request.Builder().url(url).post(requestBody.build()).build();
+       Log.i("lfq" ,"onRequest:");
         // readTimeout("请求超时时间" , 时间单位);
-        client.newBuilder().readTimeout(5000, TimeUnit.MILLISECONDS).build().newCall(request).enqueue(new Callback() {
+        client.newBuilder().readTimeout(30000, TimeUnit.MILLISECONDS).build().newCall(request).enqueue(new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
-                //请求失败处理
+                Log.i("lfq" ,"onFailure"+e.toString());
                 callBack.requestFailure(url,e,netbs);
-
             }
 
             @Override
             public void onResponse(Call call, Response response) throws IOException {
+
+
+
                 String result = null;
                 try {
                     result = response.body().string();
@@ -572,5 +620,8 @@ public class OkHttpManager {
         });
 
     }
+
+
+
 
 }
